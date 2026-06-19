@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>快乐影响 在线观看-精选国产剧</title>
+    <meta name="description" content="快乐影响：一款名为“快乐”的免费芯片能消除所有负面情绪，但植入者开始集体忘记“悲伤”这个词。">
+    <meta name="keywords" content="快乐影响,动漫青春,剧集,美国,科幻、惊悚、剧情,脑机接口,情绪操控,反乌托邦,在线播放,高清剧集">
+    <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="header-grid"></div>
+    <div class="header-inner">
+        <a class="brand" href="./index.html" aria-label="精选国产剧">
+            <span class="brand-icon">▶</span>
+            <span class="brand-text">精选国产剧</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a href="./index.html" class="nav-link">首页</a>
+            <a href="./categories.html" class="nav-link">分类</a>
+            <a href="./ranking.html" class="nav-link">热播榜</a>
+                    <a href="./category-hot-series.html" class="nav-link">热播剧集</a>
+                    <a href="./category-domestic-choice.html" class="nav-link">国产精选</a>
+                    <a href="./category-suspense-thriller.html" class="nav-link">悬疑惊悚</a>
+                    <a href="./category-urban-romance.html" class="nav-link">爱情都市</a>
+                    <a href="./category-family-ethics.html" class="nav-link">家庭伦理</a>
+                    <a href="./category-sci-fi-fantasy.html" class="nav-link">科幻奇幻</a>
+        </nav>
+        <form class="header-search" action="./search.html" method="get" data-global-search-form>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-button" type="button" data-menu-toggle aria-label="打开导航">☰</button>
+    </div>
+    <nav class="mobile-menu" data-mobile-menu aria-label="移动端导航">
+        <a href="./index.html" class="mobile-link">首页</a>
+        <a href="./categories.html" class="mobile-link">分类</a>
+        <a href="./ranking.html" class="mobile-link">热播榜</a>
+            <a href="./category-hot-series.html" class="mobile-link">热播剧集</a>
+            <a href="./category-domestic-choice.html" class="mobile-link">国产精选</a>
+            <a href="./category-suspense-thriller.html" class="mobile-link">悬疑惊悚</a>
+            <a href="./category-urban-romance.html" class="mobile-link">爱情都市</a>
+            <a href="./category-family-ethics.html" class="mobile-link">家庭伦理</a>
+            <a href="./category-sci-fi-fantasy.html" class="mobile-link">科幻奇幻</a>
+            <a href="./category-action-adventure.html" class="mobile-link">动作冒险</a>
+            <a href="./category-comedy-light.html" class="mobile-link">喜剧轻松</a>
+            <a href="./category-animation-youth.html" class="mobile-link">动漫青春</a>
+            <a href="./category-yearly-library.html" class="mobile-link">年度片库</a>
+        <form class="mobile-search" action="./search.html" method="get" data-global-search-form>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+    </nav>
+</header>
+<main>
+    <section class="detail-hero" style="background-image: linear-gradient(90deg, rgba(2, 6, 23, 0.98), rgba(15, 23, 42, 0.78), rgba(2, 6, 23, 0.42)), url('./44.jpg');">
+        <div class="breadcrumb">
+            <a href="./index.html">首页</a>
+            <span>›</span>
+            <a href="./category-animation-youth.html">动漫青春</a>
+            <span>›</span>
+            <strong>快乐影响</strong>
+        </div>
+        <div class="detail-hero-inner">
+            <img class="detail-cover" src="./44.jpg" alt="快乐影响">
+            <div class="detail-copy">
+                <span class="hero-pill">2024 · 美国</span>
+                <h1>快乐影响</h1>
+                <p>一款名为“快乐”的免费芯片能消除所有负面情绪，但植入者开始集体忘记“悲伤”这个词。</p>
+                <div class="detail-meta">
+                    <span>剧集</span>
+                    <span>科幻、惊悚、剧情</span>
+                    <span>评分 8.2</span>
+                    <span>热度 91</span>
+                </div>
+                <div class="tag-row detail-tags"><span>脑机接口</span><span>情绪操控</span><span>反乌托邦</span></div>
+            </div>
+        </div>
+    </section>
+    <section class="detail-layout">
+        <div class="detail-main">
+<section class="player-section">
+    <div class="player-stage">
+        <video id="mainPlayer" controls playsinline preload="metadata" poster="./44.jpg"></video>
+        <button id="playOverlay" class="player-overlay" type="button" aria-label="播放 快乐影响">
+            <span class="overlay-play">▶</span>
+            <strong>快乐影响</strong>
+        </button>
+    </div>
+</section>
+<script src="./assets/hls.js"></script>
+<script>
+(function () {
+    const source = "https://customer-7t103rn8rocxo5v6.cloudflarestream.com/c99d86ece73a935b77e57d322461ddb5/manifest/video.m3u8";
+    const video = document.getElementById("mainPlayer");
+    const overlay = document.getElementById("playOverlay");
+    let ready = false;
+
+    function attachSource() {
+        if (ready || !video || !source) {
+            return;
+        }
+        ready = true;
+        if (video.canPlayType("application/vnd.apple.mpegurl")) {
+            video.src = source;
+        } else if (window.Hls && window.Hls.isSupported()) {
+            const hls = new window.Hls({
+                enableWorker: true,
+                lowLatencyMode: true
+            });
+            hls.loadSource(source);
+            hls.attachMedia(video);
+        } else {
+            video.src = source;
+        }
+    }
+
+    function startPlayback() {
+        attachSource();
+        if (overlay) {
+            overlay.classList.add("is-hidden");
+        }
+        const playPromise = video.play();
+        if (playPromise && typeof playPromise.catch === "function") {
+            playPromise.catch(function () {});
+        }
+    }
+
+    if (overlay) {
+        overlay.addEventListener("click", startPlayback);
+    }
+    if (video) {
+        video.addEventListener("click", function () {
+            if (video.paused) {
+                startPlayback();
+            }
+        });
+    }
+}());
+</script>
+            <article class="text-panel">
+                <h2>剧情简介</h2>
+                <p>科技巨头“曼德勒公司”推出免费脑机芯片“Happy-Link”，宣称能过滤抑郁、焦虑与愤怒。半年内全球 20 亿人植入。记者艾娃是少数拒绝者，她发现植入者有一个共同后遗症：他们开始逐渐忘记所有与负面情绪相关的词汇——“悲伤”“愤怒”“恐惧”，甚至“痛苦”。紧接着，他们忘记“战争”“贫穷”“不公”。社会变得异常平静，但 GDP 开始断崖下跌，因为没人再“不满意”。艾娃潜入曼德勒公司，发现“快乐影响”本质是语言删除：只要一个词在人类集体记忆中消失，对应的概念就不再存在。公司计划最后删除“自由”。艾娃必须在被“快乐”同化前，让世界重新想起愤怒。</p>
+            </article>
+            <article class="text-panel">
+                <h2>影评推荐</h2>
+                <p>黑镜式的高概念科幻，对“奶头乐”社会的终极预警。节奏紧凑，每一集删除一个词的设定都细思极恐。女主的挣扎不是英雄主义，而是捍卫“不快乐的权利”。年度最佳科幻剧候选。</p>
+            </article>
+            <article class="text-panel info-panel">
+                <h2>影片信息</h2>
+                <dl>
+                    <div><dt>片名</dt><dd>快乐影响</dd></div>
+                    <div><dt>地区</dt><dd>美国</dd></div>
+                    <div><dt>类型</dt><dd>剧集</dd></div>
+                    <div><dt>年份</dt><dd>2024</dd></div>
+                    <div><dt>题材</dt><dd>科幻、惊悚、剧情</dd></div>
+                </dl>
+            </article>
+        </div>
+        <aside class="detail-aside">
+            <div class="aside-card">
+                <h2>相关推荐</h2>
+                <div class="compact-list">
+<a class="compact-card" href="./movie-0137.html">
+    <img src="./137.jpg" alt="同路人" loading="lazy">
+    <span>
+        <strong>同路人</strong>
+        <em>2028 · 历史, 爱情</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0208.html">
+    <img src="./58.jpg" alt="路" loading="lazy">
+    <span>
+        <strong>路</strong>
+        <em>2025 · 剧情、公路、家庭</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0279.html">
+    <img src="./129.jpg" alt="霹雳先锋" loading="lazy">
+    <span>
+        <strong>霹雳先锋</strong>
+        <em>2026 · 动作 / 犯罪 / 喜剧</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0361.html">
+    <img src="./61.jpg" alt="废材三人组" loading="lazy">
+    <span>
+        <strong>废材三人组</strong>
+        <em>2019 · 喜剧 / 犯罪</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0455.html">
+    <img src="./5.jpg" alt="印度制造" loading="lazy">
+    <span>
+        <strong>印度制造</strong>
+        <em>2024 · 剧情 / 喜剧</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0493.html">
+    <img src="./43.jpg" alt="拳王1991粤语" loading="lazy">
+    <span>
+        <strong>拳王1991粤语</strong>
+        <em>2023 · 动作 / 剧情 / 传记</em>
+    </span>
+</a>
+                </div>
+            </div>
+        </aside>
+    </section>
+    <section class="content-section">
+<div class="section-head">
+    <div>
+        <span class="section-kicker">精选片单</span>
+        <h2>更多推荐影片</h2>
+        <p>根据题材、分类与片库热度推荐</p>
+    </div>
+    <a class="section-more" href="./ranking.html">查看榜单<span>›</span></a>
+</div>
+
+        <div class="movie-grid small-grid">
+<article class="movie-card" data-card data-title="同路人" data-year="2028" data-type="剧集" data-genre="历史, 爱情" data-tags="麦卡锡主义 同志 政治惊悚">
+    <a class="poster-link" href="./movie-0137.html" aria-label="观看 同路人">
+        <img src="./137.jpg" alt="同路人" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2028</span>
+            <span>剧集</span>
+        </div>
+        <h3><a href="./movie-0137.html">同路人</a></h3>
+        <p>麦卡锡时代，两个政府职员在恐同清洗中相爱并互相背叛。</p>
+        <div class="tag-row"><span>麦卡锡主义</span><span>同志</span><span>政治惊悚</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="路" data-year="2025" data-type="电影" data-genre="剧情、公路、家庭" data-tags="父子 徒步 治愈 临终">
+    <a class="poster-link" href="./movie-0208.html" aria-label="观看 路">
+        <img src="./58.jpg" alt="路" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2025</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0208.html">路</a></h3>
+        <p>得知自己只剩三个月寿命，一位父亲决定和患有自闭症的儿子徒步走完他们家乡的五百里山路。</p>
+        <div class="tag-row"><span>父子</span><span>徒步</span><span>治愈</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="霹雳先锋" data-year="2026" data-type="电影" data-genre="动作 / 犯罪 / 喜剧" data-tags="港式警匪 老少搭档 无厘头 热血 致敬">
+    <a class="poster-link" href="./movie-0279.html" aria-label="观看 霹雳先锋">
+        <img src="./129.jpg" alt="霹雳先锋" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2026</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0279.html">霹雳先锋</a></h3>
+        <p>即将退休的老油条警察，被分配了一个超雄体热血新人，两人用完全不同的方式捣毁了跨国犯罪集团。</p>
+        <div class="tag-row"><span>港式警匪</span><span>老少搭档</span><span>无厘头</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="废材三人组" data-year="2019" data-type="电视剧" data-genre="喜剧 / 犯罪" data-tags="黑色幽默 失败者 劫案 荒诞">
+    <a class="poster-link" href="./movie-0361.html" aria-label="观看 废材三人组">
+        <img src="./61.jpg" alt="废材三人组" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2019</span>
+            <span>电视剧</span>
+        </div>
+        <h3><a href="./movie-0361.html">废材三人组</a></h3>
+        <p>三个生活彻底失败的 loser 决定抢劫银行，却发现自己抢的是黑帮洗钱窝点。</p>
+        <div class="tag-row"><span>黑色幽默</span><span>失败者</span><span>劫案</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="印度制造" data-year="2024" data-type="电影" data-genre="剧情 / 喜剧" data-tags="小人物逆袭 手工匠人 全球化">
+    <a class="poster-link" href="./movie-0455.html" aria-label="观看 印度制造">
+        <img src="./5.jpg" alt="印度制造" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2024</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0455.html">印度制造</a></h3>
+        <p>被缝纫机厂辞退的穷小子，用一台祖传手摇缝纫机，在跨境电商上打爆了意大利奢侈品牌。</p>
+        <div class="tag-row"><span>小人物逆袭</span><span>手工匠人</span><span>全球化</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="拳王1991粤语" data-year="2023" data-type="电影" data-genre="动作 / 剧情 / 传记" data-tags="拳击 怀旧 1990年代港风 兄弟情义 擂台燃爆">
+    <a class="poster-link" href="./movie-0493.html" aria-label="观看 拳王1991粤语">
+        <img src="./43.jpg" alt="拳王1991粤语" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2023</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0493.html">拳王1991粤语</a></h3>
+        <p>1991年，两个从湖南偷渡到香港的少年，一个成了拳王，一个成了赌王，十年后他们在擂台上生死相对。</p>
+        <div class="tag-row"><span>拳击</span><span>怀旧</span><span>1990年代港风</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="大唐狄仁杰之东瀛邪术" data-year="2028" data-type="电影" data-genre="悬疑, 古装, 动作" data-tags="狄仁杰 巫术 中日文化 推理">
+    <a class="poster-link" href="./movie-0852.html" aria-label="观看 大唐狄仁杰之东瀛邪术">
+        <img src="./102.jpg" alt="大唐狄仁杰之东瀛邪术" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2028</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0852.html">大唐狄仁杰之东瀛邪术</a></h3>
+        <p>洛阳城中接连发生“无脸尸”命案，狄仁杰发现所有线索都指向东瀛阴阳师的神秘禁术。</p>
+        <div class="tag-row"><span>狄仁杰</span><span>巫术</span><span>中日文化</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="东风海棠" data-year="2027" data-type="电影" data-genre="爱情，悬疑" data-tags="民国 旗袍 家族恩怨 替身">
+    <a class="poster-link" href="./movie-0172.html" aria-label="观看 东风海棠">
+        <img src="./22.jpg" alt="东风海棠" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2027</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0172.html">东风海棠</a></h3>
+        <p>为查清姐姐死因，她伪装成歌女接近军阀，却发现姐姐留下的海棠花胸针里藏着惊天秘密。</p>
+        <div class="tag-row"><span>民国</span><span>旗袍</span><span>家族恩怨</span></div>
+    </div>
+</article>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-grid"></div>
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <span class="brand-icon">▶</span>
+            <span>精选国产剧</span>
+        </div>
+        <p>精选剧集、热门片库与高清内容推荐，持续整理值得观看的影视条目。</p>
+        <div class="footer-links">
+                <a href="./category-hot-series.html">热播剧集</a>
+                <a href="./category-domestic-choice.html">国产精选</a>
+                <a href="./category-suspense-thriller.html">悬疑惊悚</a>
+                <a href="./category-urban-romance.html">爱情都市</a>
+                <a href="./category-family-ethics.html">家庭伦理</a>
+                <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+                <a href="./category-action-adventure.html">动作冒险</a>
+                <a href="./category-comedy-light.html">喜剧轻松</a>
+                <a href="./category-animation-youth.html">动漫青春</a>
+                <a href="./category-yearly-library.html">年度片库</a>
+        </div>
+        <div class="footer-bottom">© 2026 精选国产剧 · 高清剧集在线播放</div>
+    </div>
+</footer>
+<script src="./assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

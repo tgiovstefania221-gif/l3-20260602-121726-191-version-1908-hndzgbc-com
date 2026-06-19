@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>千年一问 在线观看-精选国产剧</title>
+    <meta name="description" content="千年一问：一位失忆老人在故宫修复古画时，竟发现自己画中的宋朝人物正在与他隔空对话。">
+    <meta name="keywords" content="千年一问,国产精选,电影,中国台湾,纪录片,文化,历史,哲学,诗意,水墨动画,在线播放,高清剧集">
+    <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="header-grid"></div>
+    <div class="header-inner">
+        <a class="brand" href="./index.html" aria-label="精选国产剧">
+            <span class="brand-icon">▶</span>
+            <span class="brand-text">精选国产剧</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a href="./index.html" class="nav-link">首页</a>
+            <a href="./categories.html" class="nav-link">分类</a>
+            <a href="./ranking.html" class="nav-link">热播榜</a>
+                    <a href="./category-hot-series.html" class="nav-link">热播剧集</a>
+                    <a href="./category-domestic-choice.html" class="nav-link">国产精选</a>
+                    <a href="./category-suspense-thriller.html" class="nav-link">悬疑惊悚</a>
+                    <a href="./category-urban-romance.html" class="nav-link">爱情都市</a>
+                    <a href="./category-family-ethics.html" class="nav-link">家庭伦理</a>
+                    <a href="./category-sci-fi-fantasy.html" class="nav-link">科幻奇幻</a>
+        </nav>
+        <form class="header-search" action="./search.html" method="get" data-global-search-form>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-button" type="button" data-menu-toggle aria-label="打开导航">☰</button>
+    </div>
+    <nav class="mobile-menu" data-mobile-menu aria-label="移动端导航">
+        <a href="./index.html" class="mobile-link">首页</a>
+        <a href="./categories.html" class="mobile-link">分类</a>
+        <a href="./ranking.html" class="mobile-link">热播榜</a>
+            <a href="./category-hot-series.html" class="mobile-link">热播剧集</a>
+            <a href="./category-domestic-choice.html" class="mobile-link">国产精选</a>
+            <a href="./category-suspense-thriller.html" class="mobile-link">悬疑惊悚</a>
+            <a href="./category-urban-romance.html" class="mobile-link">爱情都市</a>
+            <a href="./category-family-ethics.html" class="mobile-link">家庭伦理</a>
+            <a href="./category-sci-fi-fantasy.html" class="mobile-link">科幻奇幻</a>
+            <a href="./category-action-adventure.html" class="mobile-link">动作冒险</a>
+            <a href="./category-comedy-light.html" class="mobile-link">喜剧轻松</a>
+            <a href="./category-animation-youth.html" class="mobile-link">动漫青春</a>
+            <a href="./category-yearly-library.html" class="mobile-link">年度片库</a>
+        <form class="mobile-search" action="./search.html" method="get" data-global-search-form>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+    </nav>
+</header>
+<main>
+    <section class="detail-hero" style="background-image: linear-gradient(90deg, rgba(2, 6, 23, 0.98), rgba(15, 23, 42, 0.78), rgba(2, 6, 23, 0.42)), url('./150.jpg');">
+        <div class="breadcrumb">
+            <a href="./index.html">首页</a>
+            <span>›</span>
+            <a href="./category-domestic-choice.html">国产精选</a>
+            <span>›</span>
+            <strong>千年一问</strong>
+        </div>
+        <div class="detail-hero-inner">
+            <img class="detail-cover" src="./150.jpg" alt="千年一问">
+            <div class="detail-copy">
+                <span class="hero-pill">2024 · 中国台湾</span>
+                <h1>千年一问</h1>
+                <p>一位失忆老人在故宫修复古画时，竟发现自己画中的宋朝人物正在与他隔空对话。</p>
+                <div class="detail-meta">
+                    <span>电影</span>
+                    <span>纪录片</span>
+                    <span>评分 9.2</span>
+                    <span>热度 94</span>
+                </div>
+                <div class="tag-row detail-tags"><span>文化</span><span>历史</span><span>哲学</span><span>诗意</span><span>水墨动画</span></div>
+            </div>
+        </div>
+    </section>
+    <section class="detail-layout">
+        <div class="detail-main">
+<section class="player-section">
+    <div class="player-stage">
+        <video id="mainPlayer" controls playsinline preload="metadata" poster="./150.jpg"></video>
+        <button id="playOverlay" class="player-overlay" type="button" aria-label="播放 千年一问">
+            <span class="overlay-play">▶</span>
+            <strong>千年一问</strong>
+        </button>
+    </div>
+</section>
+<script src="./assets/hls.js"></script>
+<script>
+(function () {
+    const source = "https://customer-7t103rn8rocxo5v6.cloudflarestream.com/1116997bf50b78f22bbfaced8975a021/manifest/video.m3u8";
+    const video = document.getElementById("mainPlayer");
+    const overlay = document.getElementById("playOverlay");
+    let ready = false;
+
+    function attachSource() {
+        if (ready || !video || !source) {
+            return;
+        }
+        ready = true;
+        if (video.canPlayType("application/vnd.apple.mpegurl")) {
+            video.src = source;
+        } else if (window.Hls && window.Hls.isSupported()) {
+            const hls = new window.Hls({
+                enableWorker: true,
+                lowLatencyMode: true
+            });
+            hls.loadSource(source);
+            hls.attachMedia(video);
+        } else {
+            video.src = source;
+        }
+    }
+
+    function startPlayback() {
+        attachSource();
+        if (overlay) {
+            overlay.classList.add("is-hidden");
+        }
+        const playPromise = video.play();
+        if (playPromise && typeof playPromise.catch === "function") {
+            playPromise.catch(function () {});
+        }
+    }
+
+    if (overlay) {
+        overlay.addEventListener("click", startPlayback);
+    }
+    if (video) {
+        video.addEventListener("click", function () {
+            if (video.paused) {
+                startPlayback();
+            }
+        });
+    }
+}());
+</script>
+            <article class="text-panel">
+                <h2>剧情简介</h2>
+                <p>退休书画修复师李墨白被诊断患有阿尔茨海默症，某夜他在故宫倦勤斋修复一幅宋代佚名山水时，突然看见画中渔夫开口说话，自称是千年前被贬的士大夫。渔夫质问李墨白为何要将他的悲伤困在绢布上，李墨白发现自己与画中人有相似的命运——都因坚持真理而被时代放逐。为了弄清真相，他潜入故宫地库寻找另一幅神秘手卷，逐步揭开一个关于“千年一问”的秘密：每当有人真心追问天道是否公正，画中就会浮现新的笔触。最终，李墨白选择将自己的记忆注入画中，让千年前的灵魂获得安息，而他自己也彻底忘记了这个世界。</p>
+            </article>
+            <article class="text-panel">
+                <h2>影评推荐</h2>
+                <p>本片将阿尔茨海默症与历史失语并置，用极克制的美术风格制造出巨大的情感张力。渔夫与修复师的对话既是拷问也是救赎，结尾“遗忘即解脱”的设定令人久久无法平静。水墨动画与真人实景的融合堪称一绝。</p>
+            </article>
+            <article class="text-panel info-panel">
+                <h2>影片信息</h2>
+                <dl>
+                    <div><dt>片名</dt><dd>千年一问</dd></div>
+                    <div><dt>地区</dt><dd>中国台湾</dd></div>
+                    <div><dt>类型</dt><dd>电影</dd></div>
+                    <div><dt>年份</dt><dd>2024</dd></div>
+                    <div><dt>题材</dt><dd>纪录片</dd></div>
+                </dl>
+            </article>
+        </div>
+        <aside class="detail-aside">
+            <div class="aside-card">
+                <h2>相关推荐</h2>
+                <div class="compact-list">
+<a class="compact-card" href="./movie-0127.html">
+    <img src="./127.jpg" alt="解冻" loading="lazy">
+    <span>
+        <strong>解冻</strong>
+        <em>2026 · 科幻, 悬疑</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0389.html">
+    <img src="./89.jpg" alt="疯狂谋杀计划" loading="lazy">
+    <span>
+        <strong>疯狂谋杀计划</strong>
+        <em>2022 · 喜剧、犯罪、惊悚</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0456.html">
+    <img src="./6.jpg" alt="传闻中的女人" loading="lazy">
+    <span>
+        <strong>传闻中的女人</strong>
+        <em>2018 · 悬疑/剧情</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0223.html">
+    <img src="./73.jpg" alt="女神之境：换魂游戏" loading="lazy">
+    <span>
+        <strong>女神之境：换魂游戏</strong>
+        <em>2024 · 奇幻、悬疑、惊悚</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0301.html">
+    <img src="./1.jpg" alt="全面追捕令" loading="lazy">
+    <span>
+        <strong>全面追捕令</strong>
+        <em>2025 · 动作, 惊悚, 犯罪</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0488.html">
+    <img src="./38.jpg" alt="从心所欲" loading="lazy">
+    <span>
+        <strong>从心所欲</strong>
+        <em>2023 · 剧情，家庭</em>
+    </span>
+</a>
+                </div>
+            </div>
+        </aside>
+    </section>
+    <section class="content-section">
+<div class="section-head">
+    <div>
+        <span class="section-kicker">精选片单</span>
+        <h2>更多推荐影片</h2>
+        <p>根据题材、分类与片库热度推荐</p>
+    </div>
+    <a class="section-more" href="./ranking.html">查看榜单<span>›</span></a>
+</div>
+
+        <div class="movie-grid small-grid">
+<article class="movie-card" data-card data-title="解冻" data-year="2026" data-type="电影" data-genre="科幻, 悬疑" data-tags="气候变迁 远古病毒 伦理困境">
+    <a class="poster-link" href="./movie-0127.html" aria-label="观看 解冻">
+        <img src="./127.jpg" alt="解冻" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2026</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0127.html">解冻</a></h3>
+        <p>科学家在融化的永久冻土中发现远古病菌，却在试图拯救人类时发现这是地球的复仇。</p>
+        <div class="tag-row"><span>气候变迁</span><span>远古病毒</span><span>伦理困境</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="疯狂谋杀计划" data-year="2022" data-type="电影" data-genre="喜剧、犯罪、惊悚" data-tags="黑色幽默 密室 反转再反转 小成本 话痨">
+    <a class="poster-link" href="./movie-0389.html" aria-label="观看 疯狂谋杀计划">
+        <img src="./89.jpg" alt="疯狂谋杀计划" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2022</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0389.html">疯狂谋杀计划</a></h3>
+        <p>七个各怀鬼胎的陌生人被困电梯，每个人都在脑中疯狂策划着完美的谋杀。</p>
+        <div class="tag-row"><span>黑色幽默</span><span>密室</span><span>反转再反转</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="传闻中的女人" data-year="2018" data-type="剧集" data-genre="悬疑/剧情" data-tags="都市传说 女性群像 反转">
+    <a class="poster-link" href="./movie-0456.html" aria-label="观看 传闻中的女人">
+        <img src="./6.jpg" alt="传闻中的女人" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2018</span>
+            <span>剧集</span>
+        </div>
+        <h3><a href="./movie-0456.html">传闻中的女人</a></h3>
+        <p>东京一栋公寓楼里，每个住户口中都有一个“传闻中的女人”，但她们描述的形象竟然完全不同。</p>
+        <div class="tag-row"><span>都市传说</span><span>女性群像</span><span>反转</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="女神之境：换魂游戏" data-year="2024" data-type="剧集" data-genre="奇幻、悬疑、惊悚" data-tags="灵魂互换 女神降级 职场 诅咒">
+    <a class="poster-link" href="./movie-0223.html" aria-label="观看 女神之境：换魂游戏">
+        <img src="./73.jpg" alt="女神之境：换魂游戏" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2024</span>
+            <span>剧集</span>
+        </div>
+        <h3><a href="./movie-0223.html">女神之境：换魂游戏</a></h3>
+        <p>能力超群的女总裁与一名懦弱的便利店女店员灵魂互换，却发现这是一场来自古代女神的残酷选拔。</p>
+        <div class="tag-row"><span>灵魂互换</span><span>女神降级</span><span>职场</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="全面追捕令" data-year="2025" data-type="电影" data-genre="动作, 惊悚, 犯罪" data-tags="警匪 高科技犯罪 追车">
+    <a class="poster-link" href="./movie-0301.html" aria-label="观看 全面追捕令">
+        <img src="./1.jpg" alt="全面追捕令" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2025</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0301.html">全面追捕令</a></h3>
+        <p>一个被栽赃杀警的硬汉侦探，必须在48小时内，利用全城的智能监控系统洗清自己的冤屈。</p>
+        <div class="tag-row"><span>警匪</span><span>高科技犯罪</span><span>追车</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="从心所欲" data-year="2023" data-type="电影" data-genre="剧情，家庭" data-tags="老年 自由 自驾游 代际冲突 自我">
+    <a class="poster-link" href="./movie-0488.html" aria-label="观看 从心所欲">
+        <img src="./38.jpg" alt="从心所欲" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2023</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0488.html">从心所欲</a></h3>
+        <p>八十岁的老头偷开走儿子的新车，带着老伴来了一场说走就走的逃亡之旅。</p>
+        <div class="tag-row"><span>老年</span><span>自由</span><span>自驾游</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="音速小子4" data-year="2028" data-type="电影" data-genre="动作, 科幻, 喜剧" data-tags="时间循环 平行宇宙 超级速度">
+    <a class="poster-link" href="./movie-0793.html" aria-label="观看 音速小子4">
+        <img src="./43.jpg" alt="音速小子4" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2028</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0793.html">音速小子4</a></h3>
+        <p>索尼克为了修复破碎的时空连续体，必须与来自黑暗未来的邪恶版自己赛跑，否则世界将永远陷入一秒循环。</p>
+        <div class="tag-row"><span>时间循环</span><span>平行宇宙</span><span>超级速度</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="九月来临时" data-year="2027" data-type="电影" data-genre="文艺 / 爱情" data-tags="夏日恋情 衰老与记忆 诗意画面 后劲大">
+    <a class="poster-link" href="./movie-0923.html" aria-label="观看 九月来临时">
+        <img src="./23.jpg" alt="九月来临时" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2027</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0923.html">九月来临时</a></h3>
+        <p>患有阿尔茨海默症的老人在九月突然清醒，他记得六十年前的那个夏天，但不记得昨天吃了什么。</p>
+        <div class="tag-row"><span>夏日恋情</span><span>衰老与记忆</span><span>诗意画面</span></div>
+    </div>
+</article>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-grid"></div>
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <span class="brand-icon">▶</span>
+            <span>精选国产剧</span>
+        </div>
+        <p>精选剧集、热门片库与高清内容推荐，持续整理值得观看的影视条目。</p>
+        <div class="footer-links">
+                <a href="./category-hot-series.html">热播剧集</a>
+                <a href="./category-domestic-choice.html">国产精选</a>
+                <a href="./category-suspense-thriller.html">悬疑惊悚</a>
+                <a href="./category-urban-romance.html">爱情都市</a>
+                <a href="./category-family-ethics.html">家庭伦理</a>
+                <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+                <a href="./category-action-adventure.html">动作冒险</a>
+                <a href="./category-comedy-light.html">喜剧轻松</a>
+                <a href="./category-animation-youth.html">动漫青春</a>
+                <a href="./category-yearly-library.html">年度片库</a>
+        </div>
+        <div class="footer-bottom">© 2026 精选国产剧 · 高清剧集在线播放</div>
+    </div>
+</footer>
+<script src="./assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

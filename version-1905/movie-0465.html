@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>童军 在线观看-精选国产剧</title>
+    <meta name="description" content="童军：三个童子军在森林里迷路，却意外发现了一伙盗猎者的惊天阴谋。">
+    <meta name="keywords" content="童军,动作冒险,电影,美国,喜剧 / 冒险 / 家庭,童子军,荒诞喜剧,儿童冒险,环保主题,在线播放,高清剧集">
+    <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="header-grid"></div>
+    <div class="header-inner">
+        <a class="brand" href="./index.html" aria-label="精选国产剧">
+            <span class="brand-icon">▶</span>
+            <span class="brand-text">精选国产剧</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a href="./index.html" class="nav-link">首页</a>
+            <a href="./categories.html" class="nav-link">分类</a>
+            <a href="./ranking.html" class="nav-link">热播榜</a>
+                    <a href="./category-hot-series.html" class="nav-link">热播剧集</a>
+                    <a href="./category-domestic-choice.html" class="nav-link">国产精选</a>
+                    <a href="./category-suspense-thriller.html" class="nav-link">悬疑惊悚</a>
+                    <a href="./category-urban-romance.html" class="nav-link">爱情都市</a>
+                    <a href="./category-family-ethics.html" class="nav-link">家庭伦理</a>
+                    <a href="./category-sci-fi-fantasy.html" class="nav-link">科幻奇幻</a>
+        </nav>
+        <form class="header-search" action="./search.html" method="get" data-global-search-form>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-button" type="button" data-menu-toggle aria-label="打开导航">☰</button>
+    </div>
+    <nav class="mobile-menu" data-mobile-menu aria-label="移动端导航">
+        <a href="./index.html" class="mobile-link">首页</a>
+        <a href="./categories.html" class="mobile-link">分类</a>
+        <a href="./ranking.html" class="mobile-link">热播榜</a>
+            <a href="./category-hot-series.html" class="mobile-link">热播剧集</a>
+            <a href="./category-domestic-choice.html" class="mobile-link">国产精选</a>
+            <a href="./category-suspense-thriller.html" class="mobile-link">悬疑惊悚</a>
+            <a href="./category-urban-romance.html" class="mobile-link">爱情都市</a>
+            <a href="./category-family-ethics.html" class="mobile-link">家庭伦理</a>
+            <a href="./category-sci-fi-fantasy.html" class="mobile-link">科幻奇幻</a>
+            <a href="./category-action-adventure.html" class="mobile-link">动作冒险</a>
+            <a href="./category-comedy-light.html" class="mobile-link">喜剧轻松</a>
+            <a href="./category-animation-youth.html" class="mobile-link">动漫青春</a>
+            <a href="./category-yearly-library.html" class="mobile-link">年度片库</a>
+        <form class="mobile-search" action="./search.html" method="get" data-global-search-form>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+    </nav>
+</header>
+<main>
+    <section class="detail-hero" style="background-image: linear-gradient(90deg, rgba(2, 6, 23, 0.98), rgba(15, 23, 42, 0.78), rgba(2, 6, 23, 0.42)), url('./15.jpg');">
+        <div class="breadcrumb">
+            <a href="./index.html">首页</a>
+            <span>›</span>
+            <a href="./category-action-adventure.html">动作冒险</a>
+            <span>›</span>
+            <strong>童军</strong>
+        </div>
+        <div class="detail-hero-inner">
+            <img class="detail-cover" src="./15.jpg" alt="童军">
+            <div class="detail-copy">
+                <span class="hero-pill">2022 · 美国</span>
+                <h1>童军</h1>
+                <p>三个童子军在森林里迷路，却意外发现了一伙盗猎者的惊天阴谋。</p>
+                <div class="detail-meta">
+                    <span>电影</span>
+                    <span>喜剧 / 冒险 / 家庭</span>
+                    <span>评分 7.6</span>
+                    <span>热度 78</span>
+                </div>
+                <div class="tag-row detail-tags"><span>童子军</span><span>荒诞喜剧</span><span>儿童冒险</span><span>环保主题</span></div>
+            </div>
+        </div>
+    </section>
+    <section class="detail-layout">
+        <div class="detail-main">
+<section class="player-section">
+    <div class="player-stage">
+        <video id="mainPlayer" controls playsinline preload="metadata" poster="./15.jpg"></video>
+        <button id="playOverlay" class="player-overlay" type="button" aria-label="播放 童军">
+            <span class="overlay-play">▶</span>
+            <strong>童军</strong>
+        </button>
+    </div>
+</section>
+<script src="./assets/hls.js"></script>
+<script>
+(function () {
+    const source = "https://customer-7t103rn8rocxo5v6.cloudflarestream.com/d0af4221b8947fda8c23f4955947cb58/manifest/video.m3u8";
+    const video = document.getElementById("mainPlayer");
+    const overlay = document.getElementById("playOverlay");
+    let ready = false;
+
+    function attachSource() {
+        if (ready || !video || !source) {
+            return;
+        }
+        ready = true;
+        if (video.canPlayType("application/vnd.apple.mpegurl")) {
+            video.src = source;
+        } else if (window.Hls && window.Hls.isSupported()) {
+            const hls = new window.Hls({
+                enableWorker: true,
+                lowLatencyMode: true
+            });
+            hls.loadSource(source);
+            hls.attachMedia(video);
+        } else {
+            video.src = source;
+        }
+    }
+
+    function startPlayback() {
+        attachSource();
+        if (overlay) {
+            overlay.classList.add("is-hidden");
+        }
+        const playPromise = video.play();
+        if (playPromise && typeof playPromise.catch === "function") {
+            playPromise.catch(function () {});
+        }
+    }
+
+    if (overlay) {
+        overlay.addEventListener("click", startPlayback);
+    }
+    if (video) {
+        video.addEventListener("click", function () {
+            if (video.paused) {
+                startPlayback();
+            }
+        });
+    }
+}());
+</script>
+            <article class="text-panel">
+                <h2>剧情简介</h2>
+                <p>童子军小队“野狼组”的哈利、胖子、眼镜仔在森林远足时掉队迷路。三人按照童子军手册的指引求生，意外发现盗猎者在森林里捕捉珍稀鸟类卖给黑市。盗猎者发现他们开始追杀，三个孩子用手册上学的技能反击：设陷阱、打绳结、识别草药、星象导航。胖子用体重压垮木桥挡住追兵，眼镜仔用摩斯密码发出求救信号，哈利爬树偷拍盗猎证据。三天后警方根据信号找到三人，盗猎团伙被一锅端。三个孩子成了英雄，校长在全校大会上给他们戴上荣誉徽章。</p>
+            </article>
+            <article class="text-panel">
+                <h2>影评推荐</h2>
+                <p>轻松搞笑的儿童冒险喜剧，童子军技能科普融入得毫不生硬。三个小演员化学反应满分，盗猎者虽然不凶但作为反派够用，适合全家观看的爆米花片。</p>
+            </article>
+            <article class="text-panel info-panel">
+                <h2>影片信息</h2>
+                <dl>
+                    <div><dt>片名</dt><dd>童军</dd></div>
+                    <div><dt>地区</dt><dd>美国</dd></div>
+                    <div><dt>类型</dt><dd>电影</dd></div>
+                    <div><dt>年份</dt><dd>2022</dd></div>
+                    <div><dt>题材</dt><dd>喜剧 / 冒险 / 家庭</dd></div>
+                </dl>
+            </article>
+        </div>
+        <aside class="detail-aside">
+            <div class="aside-card">
+                <h2>相关推荐</h2>
+                <div class="compact-list">
+<a class="compact-card" href="./movie-0174.html">
+    <img src="./24.jpg" alt="血族第四季" loading="lazy">
+    <span>
+        <strong>血族第四季</strong>
+        <em>2017 · 恐怖, 奇幻</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0427.html">
+    <img src="./127.jpg" alt="原则" loading="lazy">
+    <span>
+        <strong>原则</strong>
+        <em>2029 · 律政, 剧情</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0072.html">
+    <img src="./72.jpg" alt="深井" loading="lazy">
+    <span>
+        <strong>深井</strong>
+        <em>2024 · 悬疑、惊悚</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0348.html">
+    <img src="./48.jpg" alt="灰色的乐园 特典" loading="lazy">
+    <span>
+        <strong>灰色的乐园 特典</strong>
+        <em>2015 · 剧情， 悬疑</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0255.html">
+    <img src="./105.jpg" alt="大雄的日本诞生" loading="lazy">
+    <span>
+        <strong>大雄的日本诞生</strong>
+        <em>2003 · 冒险家庭, 时空穿越, 青春成长</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0483.html">
+    <img src="./33.jpg" alt="逃学威凤" loading="lazy">
+    <span>
+        <strong>逃学威凤</strong>
+        <em>2026 · 喜剧 / 动作 / 校园</em>
+    </span>
+</a>
+                </div>
+            </div>
+        </aside>
+    </section>
+    <section class="content-section">
+<div class="section-head">
+    <div>
+        <span class="section-kicker">精选片单</span>
+        <h2>更多推荐影片</h2>
+        <p>根据题材、分类与片库热度推荐</p>
+    </div>
+    <a class="section-more" href="./ranking.html">查看榜单<span>›</span></a>
+</div>
+
+        <div class="movie-grid small-grid">
+<article class="movie-card" data-card data-title="血族第四季" data-year="2017" data-type="剧集" data-genre="恐怖, 奇幻" data-tags="吸血鬼 末世 战争 大结局">
+    <a class="poster-link" href="./movie-0174.html" aria-label="观看 血族第四季">
+        <img src="./24.jpg" alt="血族第四季" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2017</span>
+            <span>剧集</span>
+        </div>
+        <h3><a href="./movie-0174.html">血族第四季</a></h3>
+        <p>核爆后的纽约，吸血鬼全面统治，仅存的人类反抗军发现始祖病毒其实可以逆向治愈。</p>
+        <div class="tag-row"><span>吸血鬼</span><span>末世</span><span>战争</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="原则" data-year="2029" data-type="剧集" data-genre="律政, 剧情" data-tags="律师 道德困境 体制内">
+    <a class="poster-link" href="./movie-0427.html" aria-label="观看 原则">
+        <img src="./127.jpg" alt="原则" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2029</span>
+            <span>剧集</span>
+        </div>
+        <h3><a href="./movie-0427.html">原则</a></h3>
+        <p>县城女律师为正义对抗黑恶势力，却发现保护伞是亲生父亲。</p>
+        <div class="tag-row"><span>律师</span><span>道德困境</span><span>体制内</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="深井" data-year="2024" data-type="电影" data-genre="悬疑、惊悚" data-tags="密室 心理 真相 反转 压抑">
+    <a class="poster-link" href="./movie-0072.html" aria-label="观看 深井">
+        <img src="./72.jpg" alt="深井" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2024</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0072.html">深井</a></h3>
+        <p>三个陌生人在一口废弃深井中醒来，他们必须回忆并找出谁才是真正的“恶人”。</p>
+        <div class="tag-row"><span>密室</span><span>心理</span><span>真相</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="灰色的乐园 特典" data-year="2015" data-type="动画剧集" data-genre="剧情， 悬疑" data-tags="特典 番外 校园 治愈">
+    <a class="poster-link" href="./movie-0348.html" aria-label="观看 灰色的乐园 特典">
+        <img src="./48.jpg" alt="灰色的乐园 特典" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2015</span>
+            <span>动画剧集</span>
+        </div>
+        <h3><a href="./movie-0348.html">灰色的乐园 特典</a></h3>
+        <p>在无人知晓的乐园深处，少女们隐藏的秘密与未说出口的告别交织成最后的礼物。</p>
+        <div class="tag-row"><span>特典</span><span>番外</span><span>校园</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="大雄的日本诞生" data-year="2003" data-type="动画电影" data-genre="冒险家庭, 时空穿越, 青春成长" data-tags="时空胶囊 乡村重建 未来科技 友谊 日本史">
+    <a class="poster-link" href="./movie-0255.html" aria-label="观看 大雄的日本诞生">
+        <img src="./105.jpg" alt="大雄的日本诞生" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2003</span>
+            <span>动画电影</span>
+        </div>
+        <h3><a href="./movie-0255.html">大雄的日本诞生</a></h3>
+        <p>大雄误触时空模块跌入废墟时代，却在一片重建中的小镇里学会了“离开”与“归来”之间的真正关系。</p>
+        <div class="tag-row"><span>时空胶囊</span><span>乡村重建</span><span>未来科技</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="逃学威凤" data-year="2026" data-type="电影" data-genre="喜剧 / 动作 / 校园" data-tags="女警卧底 校园 乌龙 港式无厘头 师生情">
+    <a class="poster-link" href="./movie-0483.html" aria-label="观看 逃学威凤">
+        <img src="./33.jpg" alt="逃学威凤" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2026</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0483.html">逃学威凤</a></h3>
+        <p>最暴力的女警被派去高中卧底当老师，她要找的不是毒贩，是那个天天逃学的自己。</p>
+        <div class="tag-row"><span>女警卧底</span><span>校园</span><span>乌龙</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="末日危机：绝境求生" data-year="2029" data-type="电影" data-genre="科幻 / 灾难 / 动作" data-tags="太阳耀斑 地堡生存 父女救赎">
+    <a class="poster-link" href="./movie-1574.html" aria-label="观看 末日危机：绝境求生">
+        <img src="./74.jpg" alt="末日危机：绝境求生" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2029</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-1574.html">末日危机：绝境求生</a></h3>
+        <p>一场太阳耀斑摧毁了地表电子设备，一个叛逆的女儿必须和患有PTSD的父亲徒步400公里求生。</p>
+        <div class="tag-row"><span>太阳耀斑</span><span>地堡生存</span><span>父女救赎</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="海坐下来时没有风" data-year="2027" data-type="电影" data-genre="剧情， 文艺" data-tags="作者电影 丧子 和解">
+    <a class="poster-link" href="./movie-0561.html" aria-label="观看 海坐下来时没有风">
+        <img src="./111.jpg" alt="海坐下来时没有风" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2027</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0561.html">海坐下来时没有风</a></h3>
+        <p>失去儿子的母亲独自来到海边，发现一个陌生女孩每天在同一位置模仿着儿子的习惯动作。</p>
+        <div class="tag-row"><span>作者电影</span><span>丧子</span><span>和解</span></div>
+    </div>
+</article>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-grid"></div>
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <span class="brand-icon">▶</span>
+            <span>精选国产剧</span>
+        </div>
+        <p>精选剧集、热门片库与高清内容推荐，持续整理值得观看的影视条目。</p>
+        <div class="footer-links">
+                <a href="./category-hot-series.html">热播剧集</a>
+                <a href="./category-domestic-choice.html">国产精选</a>
+                <a href="./category-suspense-thriller.html">悬疑惊悚</a>
+                <a href="./category-urban-romance.html">爱情都市</a>
+                <a href="./category-family-ethics.html">家庭伦理</a>
+                <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+                <a href="./category-action-adventure.html">动作冒险</a>
+                <a href="./category-comedy-light.html">喜剧轻松</a>
+                <a href="./category-animation-youth.html">动漫青春</a>
+                <a href="./category-yearly-library.html">年度片库</a>
+        </div>
+        <div class="footer-bottom">© 2026 精选国产剧 · 高清剧集在线播放</div>
+    </div>
+</footer>
+<script src="./assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

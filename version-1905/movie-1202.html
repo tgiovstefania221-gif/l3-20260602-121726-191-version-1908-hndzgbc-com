@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>人间时人 在线观看-精选国产剧</title>
+    <meta name="description" content="人间时人：一家名为“时间当铺”的神秘小店，允许人们典当自己生命中的时间来换取任何东西，但代价总是意想不到。">
+    <meta name="keywords" content="人间时人,悬疑惊悚,剧集,中国,悬疑、奇幻,时间重置,单元故事,人性拷问,在线播放,高清剧集">
+    <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="header-grid"></div>
+    <div class="header-inner">
+        <a class="brand" href="./index.html" aria-label="精选国产剧">
+            <span class="brand-icon">▶</span>
+            <span class="brand-text">精选国产剧</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a href="./index.html" class="nav-link">首页</a>
+            <a href="./categories.html" class="nav-link">分类</a>
+            <a href="./ranking.html" class="nav-link">热播榜</a>
+                    <a href="./category-hot-series.html" class="nav-link">热播剧集</a>
+                    <a href="./category-domestic-choice.html" class="nav-link">国产精选</a>
+                    <a href="./category-suspense-thriller.html" class="nav-link">悬疑惊悚</a>
+                    <a href="./category-urban-romance.html" class="nav-link">爱情都市</a>
+                    <a href="./category-family-ethics.html" class="nav-link">家庭伦理</a>
+                    <a href="./category-sci-fi-fantasy.html" class="nav-link">科幻奇幻</a>
+        </nav>
+        <form class="header-search" action="./search.html" method="get" data-global-search-form>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-button" type="button" data-menu-toggle aria-label="打开导航">☰</button>
+    </div>
+    <nav class="mobile-menu" data-mobile-menu aria-label="移动端导航">
+        <a href="./index.html" class="mobile-link">首页</a>
+        <a href="./categories.html" class="mobile-link">分类</a>
+        <a href="./ranking.html" class="mobile-link">热播榜</a>
+            <a href="./category-hot-series.html" class="mobile-link">热播剧集</a>
+            <a href="./category-domestic-choice.html" class="mobile-link">国产精选</a>
+            <a href="./category-suspense-thriller.html" class="mobile-link">悬疑惊悚</a>
+            <a href="./category-urban-romance.html" class="mobile-link">爱情都市</a>
+            <a href="./category-family-ethics.html" class="mobile-link">家庭伦理</a>
+            <a href="./category-sci-fi-fantasy.html" class="mobile-link">科幻奇幻</a>
+            <a href="./category-action-adventure.html" class="mobile-link">动作冒险</a>
+            <a href="./category-comedy-light.html" class="mobile-link">喜剧轻松</a>
+            <a href="./category-animation-youth.html" class="mobile-link">动漫青春</a>
+            <a href="./category-yearly-library.html" class="mobile-link">年度片库</a>
+        <form class="mobile-search" action="./search.html" method="get" data-global-search-form>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+    </nav>
+</header>
+<main>
+    <section class="detail-hero" style="background-image: linear-gradient(90deg, rgba(2, 6, 23, 0.98), rgba(15, 23, 42, 0.78), rgba(2, 6, 23, 0.42)), url('./2.jpg');">
+        <div class="breadcrumb">
+            <a href="./index.html">首页</a>
+            <span>›</span>
+            <a href="./category-suspense-thriller.html">悬疑惊悚</a>
+            <span>›</span>
+            <strong>人间时人</strong>
+        </div>
+        <div class="detail-hero-inner">
+            <img class="detail-cover" src="./2.jpg" alt="人间时人">
+            <div class="detail-copy">
+                <span class="hero-pill">2025 · 中国</span>
+                <h1>人间时人</h1>
+                <p>一家名为“时间当铺”的神秘小店，允许人们典当自己生命中的时间来换取任何东西，但代价总是意想不到。</p>
+                <div class="detail-meta">
+                    <span>剧集</span>
+                    <span>悬疑、奇幻</span>
+                    <span>评分 7.6</span>
+                    <span>热度 78</span>
+                </div>
+                <div class="tag-row detail-tags"><span>时间重置</span><span>单元故事</span><span>人性拷问</span></div>
+            </div>
+        </div>
+    </section>
+    <section class="detail-layout">
+        <div class="detail-main">
+<section class="player-section">
+    <div class="player-stage">
+        <video id="mainPlayer" controls playsinline preload="metadata" poster="./2.jpg"></video>
+        <button id="playOverlay" class="player-overlay" type="button" aria-label="播放 人间时人">
+            <span class="overlay-play">▶</span>
+            <strong>人间时人</strong>
+        </button>
+    </div>
+</section>
+<script src="./assets/hls.js"></script>
+<script>
+(function () {
+    const source = "https://customer-7t103rn8rocxo5v6.cloudflarestream.com/77ae15566dde5cfb920bae4712a38399/manifest/video.m3u8";
+    const video = document.getElementById("mainPlayer");
+    const overlay = document.getElementById("playOverlay");
+    let ready = false;
+
+    function attachSource() {
+        if (ready || !video || !source) {
+            return;
+        }
+        ready = true;
+        if (video.canPlayType("application/vnd.apple.mpegurl")) {
+            video.src = source;
+        } else if (window.Hls && window.Hls.isSupported()) {
+            const hls = new window.Hls({
+                enableWorker: true,
+                lowLatencyMode: true
+            });
+            hls.loadSource(source);
+            hls.attachMedia(video);
+        } else {
+            video.src = source;
+        }
+    }
+
+    function startPlayback() {
+        attachSource();
+        if (overlay) {
+            overlay.classList.add("is-hidden");
+        }
+        const playPromise = video.play();
+        if (playPromise && typeof playPromise.catch === "function") {
+            playPromise.catch(function () {});
+        }
+    }
+
+    if (overlay) {
+        overlay.addEventListener("click", startPlayback);
+    }
+    if (video) {
+        video.addEventListener("click", function () {
+            if (video.paused) {
+                startPlayback();
+            }
+        });
+    }
+}());
+</script>
+            <article class="text-panel">
+                <h2>剧情简介</h2>
+                <p>落魄的青年许光偶然发现了一家只在午夜开门、名为“人间时人”的当铺。这里的老板声称可以典当你的“时间”——不是寿命，而是生命中某一段具体的时光记忆或感受。为了换钱救妹妹，许光典当了自己高中三年的快乐回忆，从此再也感受不到喜悦。随着他成为当铺的常客，他见识了形形色色的客人：为挽回爱情而典当恐惧的女生，结果变得麻木不仁；为升职而典当良心的白领，最终身败名裂。许光逐渐发现，这家当铺的目的并非帮助人，而是收集人性中最宝贵的特质。当他决定毁掉当铺时，却发现自己才是老板布局中最重要的棋子。</p>
+            </article>
+            <article class="text-panel">
+                <h2>影评推荐</h2>
+                <p>极具中式哲思的奇幻剧，每个小故事都像一个深刻的寓言。对“时间”和“欲望”的探讨新颖且发人深省。男主从贪婪到醒悟的弧光完整，结尾的开放式处理回味无穷。</p>
+            </article>
+            <article class="text-panel info-panel">
+                <h2>影片信息</h2>
+                <dl>
+                    <div><dt>片名</dt><dd>人间时人</dd></div>
+                    <div><dt>地区</dt><dd>中国</dd></div>
+                    <div><dt>类型</dt><dd>剧集</dd></div>
+                    <div><dt>年份</dt><dd>2025</dd></div>
+                    <div><dt>题材</dt><dd>悬疑、奇幻</dd></div>
+                </dl>
+            </article>
+        </div>
+        <aside class="detail-aside">
+            <div class="aside-card">
+                <h2>相关推荐</h2>
+                <div class="compact-list">
+<a class="compact-card" href="./movie-0365.html">
+    <img src="./65.jpg" alt="精灵的愿望成真了" loading="lazy">
+    <span>
+        <strong>精灵的愿望成真了</strong>
+        <em>2025 · 奇幻, 治愈, 日常</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0113.html">
+    <img src="./113.jpg" alt="追杀华金穆列塔" loading="lazy">
+    <span>
+        <strong>追杀华金穆列塔</strong>
+        <em>2023 · 西部历史</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0252.html">
+    <img src="./102.jpg" alt="史丹利的便当盒" loading="lazy">
+    <span>
+        <strong>史丹利的便当盒</strong>
+        <em>2018 · 家庭剧情, 成长, 公路</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0449.html">
+    <img src="./149.jpg" alt="暗宅之谜" loading="lazy">
+    <span>
+        <strong>暗宅之谜</strong>
+        <em>2019 · 悬疑、惊悚、密室</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0041.html">
+    <img src="./41.jpg" alt="二次曝光" loading="lazy">
+    <span>
+        <strong>二次曝光</strong>
+        <em>2025 · 悬疑, 犯罪</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0337.html">
+    <img src="./37.jpg" alt="十月建造的房屋" loading="lazy">
+    <span>
+        <strong>十月建造的房屋</strong>
+        <em>2024 · 悬疑 / 惊悚</em>
+    </span>
+</a>
+                </div>
+            </div>
+        </aside>
+    </section>
+    <section class="content-section">
+<div class="section-head">
+    <div>
+        <span class="section-kicker">精选片单</span>
+        <h2>更多推荐影片</h2>
+        <p>根据题材、分类与片库热度推荐</p>
+    </div>
+    <a class="section-more" href="./ranking.html">查看榜单<span>›</span></a>
+</div>
+
+        <div class="movie-grid small-grid">
+<article class="movie-card" data-card data-title="精灵的愿望成真了" data-year="2025" data-type="动画剧集" data-genre="奇幻, 治愈, 日常" data-tags="精灵 愿望 反套路 治愈系 轻喜剧">
+    <a class="poster-link" href="./movie-0365.html" aria-label="观看 精灵的愿望成真了">
+        <img src="./65.jpg" alt="精灵的愿望成真了" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2025</span>
+            <span>动画剧集</span>
+        </div>
+        <h3><a href="./movie-0365.html">精灵的愿望成真了</a></h3>
+        <p>一个菜鸟精灵每次实现愿望都会出错，却意外让许愿者过上了更幸福的人生。</p>
+        <div class="tag-row"><span>精灵</span><span>愿望</span><span>反套路</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="追杀华金穆列塔" data-year="2023" data-type="电影" data-genre="西部历史" data-tags="墨西哥传奇 侠盗复仇 淘金热">
+    <a class="poster-link" href="./movie-0113.html" aria-label="观看 追杀华金穆列塔">
+        <img src="./113.jpg" alt="追杀华金穆列塔" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2023</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0113.html">追杀华金穆列塔</a></h3>
+        <p>加州淘金热时期，墨西哥牛仔华金的妻子被白人矿工杀害，他拿起枪变成西部最危险的亡命徒。</p>
+        <div class="tag-row"><span>墨西哥传奇</span><span>侠盗复仇</span><span>淘金热</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="史丹利的便当盒" data-year="2018" data-type="电影" data-genre="家庭剧情, 成长, 公路" data-tags="父子关系 午餐盒 小镇夏天 自我和解 温柔喜剧">
+    <a class="poster-link" href="./movie-0252.html" aria-label="观看 史丹利的便当盒">
+        <img src="./102.jpg" alt="史丹利的便当盒" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2018</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0252.html">史丹利的便当盒</a></h3>
+        <p>一只被装满又被遗忘的便当盒，意外把一个沉默的中年父亲和他疏远多年的儿子带上了穿越三州公路的旅程，也把他们一路逃开的旧伤一格格打开。</p>
+        <div class="tag-row"><span>父子关系</span><span>午餐盒</span><span>小镇夏天</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="暗宅之谜" data-year="2019" data-type="电影" data-genre="悬疑、惊悚、密室" data-tags="孤宅 家族秘密 反转">
+    <a class="poster-link" href="./movie-0449.html" aria-label="观看 暗宅之谜">
+        <img src="./149.jpg" alt="暗宅之谜" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2019</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0449.html">暗宅之谜</a></h3>
+        <p>一座百年老宅，六个陌生人，一夜之间接连离奇失踪。</p>
+        <div class="tag-row"><span>孤宅</span><span>家族秘密</span><span>反转</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="二次曝光" data-year="2025" data-type="电影" data-genre="悬疑, 犯罪" data-tags="偷拍 替身 复仇">
+    <a class="poster-link" href="./movie-0041.html" aria-label="观看 二次曝光">
+        <img src="./41.jpg" alt="二次曝光" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2025</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0041.html">二次曝光</a></h3>
+        <p>她发现自己从小到大的所有重要照片里，都站着同一个与她长得一模一样的人。</p>
+        <div class="tag-row"><span>偷拍</span><span>替身</span><span>复仇</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="十月建造的房屋" data-year="2024" data-type="电影" data-genre="悬疑 / 惊悚" data-tags="密闭空间 心理恐怖 民俗 反转">
+    <a class="poster-link" href="./movie-0337.html" aria-label="观看 十月建造的房屋">
+        <img src="./37.jpg" alt="十月建造的房屋" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2024</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0337.html">十月建造的房屋</a></h3>
+        <p>七个驴友在废弃的“十月民宿”录制探险视频，回放录像时发现画面里多了一个不该存在的“房东”。</p>
+        <div class="tag-row"><span>密闭空间</span><span>心理恐怖</span><span>民俗</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="暗夜第六感2041" data-year="2041" data-type="剧集" data-genre="科幻 / 心理" data-tags="超能力 赛博朋克 兄弟羁绊">
+    <a class="poster-link" href="./movie-0022.html" aria-label="观看 暗夜第六感2041">
+        <img src="./22.jpg" alt="暗夜第六感2041" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2041</span>
+            <span>剧集</span>
+        </div>
+        <h3><a href="./movie-0022.html">暗夜第六感2041</a></h3>
+        <p>2041年，一对拥有毁灭性超能力的兄弟在末世东京觉醒，政府要将他们改造为武器。</p>
+        <div class="tag-row"><span>超能力</span><span>赛博朋克</span><span>兄弟羁绊</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="少林门" data-year="2029" data-type="电影" data-genre="动作 / 武侠" data-tags="硬桥硬马 少林叛徒 师徒恩仇 冷兵器对战">
+    <a class="poster-link" href="./movie-1431.html" aria-label="观看 少林门">
+        <img src="./81.jpg" alt="少林门" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2029</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-1431.html">少林门</a></h3>
+        <p>少林寺最隐秘的守门僧叛出师门，七年后带洋人火枪队重返，要炸开那扇从未被打开的门。</p>
+        <div class="tag-row"><span>硬桥硬马</span><span>少林叛徒</span><span>师徒恩仇</span></div>
+    </div>
+</article>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-grid"></div>
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <span class="brand-icon">▶</span>
+            <span>精选国产剧</span>
+        </div>
+        <p>精选剧集、热门片库与高清内容推荐，持续整理值得观看的影视条目。</p>
+        <div class="footer-links">
+                <a href="./category-hot-series.html">热播剧集</a>
+                <a href="./category-domestic-choice.html">国产精选</a>
+                <a href="./category-suspense-thriller.html">悬疑惊悚</a>
+                <a href="./category-urban-romance.html">爱情都市</a>
+                <a href="./category-family-ethics.html">家庭伦理</a>
+                <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+                <a href="./category-action-adventure.html">动作冒险</a>
+                <a href="./category-comedy-light.html">喜剧轻松</a>
+                <a href="./category-animation-youth.html">动漫青春</a>
+                <a href="./category-yearly-library.html">年度片库</a>
+        </div>
+        <div class="footer-bottom">© 2026 精选国产剧 · 高清剧集在线播放</div>
+    </div>
+</footer>
+<script src="./assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

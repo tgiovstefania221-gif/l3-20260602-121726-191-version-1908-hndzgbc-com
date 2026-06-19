@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>魔力女声 在线观看-精选国产剧</title>
+    <meta name="description" content="魔力女声：一个从未出过小镇的家庭主妇，用天籁之音征服了全国评委，却无法让聋哑女儿“听见”。">
+    <meta name="keywords" content="魔力女声,动作冒险,电影,美国,剧情, 音乐,歌唱比赛,素人,母性,在线播放,高清剧集">
+    <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="header-grid"></div>
+    <div class="header-inner">
+        <a class="brand" href="./index.html" aria-label="精选国产剧">
+            <span class="brand-icon">▶</span>
+            <span class="brand-text">精选国产剧</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a href="./index.html" class="nav-link">首页</a>
+            <a href="./categories.html" class="nav-link">分类</a>
+            <a href="./ranking.html" class="nav-link">热播榜</a>
+                    <a href="./category-hot-series.html" class="nav-link">热播剧集</a>
+                    <a href="./category-domestic-choice.html" class="nav-link">国产精选</a>
+                    <a href="./category-suspense-thriller.html" class="nav-link">悬疑惊悚</a>
+                    <a href="./category-urban-romance.html" class="nav-link">爱情都市</a>
+                    <a href="./category-family-ethics.html" class="nav-link">家庭伦理</a>
+                    <a href="./category-sci-fi-fantasy.html" class="nav-link">科幻奇幻</a>
+        </nav>
+        <form class="header-search" action="./search.html" method="get" data-global-search-form>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-button" type="button" data-menu-toggle aria-label="打开导航">☰</button>
+    </div>
+    <nav class="mobile-menu" data-mobile-menu aria-label="移动端导航">
+        <a href="./index.html" class="mobile-link">首页</a>
+        <a href="./categories.html" class="mobile-link">分类</a>
+        <a href="./ranking.html" class="mobile-link">热播榜</a>
+            <a href="./category-hot-series.html" class="mobile-link">热播剧集</a>
+            <a href="./category-domestic-choice.html" class="mobile-link">国产精选</a>
+            <a href="./category-suspense-thriller.html" class="mobile-link">悬疑惊悚</a>
+            <a href="./category-urban-romance.html" class="mobile-link">爱情都市</a>
+            <a href="./category-family-ethics.html" class="mobile-link">家庭伦理</a>
+            <a href="./category-sci-fi-fantasy.html" class="mobile-link">科幻奇幻</a>
+            <a href="./category-action-adventure.html" class="mobile-link">动作冒险</a>
+            <a href="./category-comedy-light.html" class="mobile-link">喜剧轻松</a>
+            <a href="./category-animation-youth.html" class="mobile-link">动漫青春</a>
+            <a href="./category-yearly-library.html" class="mobile-link">年度片库</a>
+        <form class="mobile-search" action="./search.html" method="get" data-global-search-form>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+    </nav>
+</header>
+<main>
+    <section class="detail-hero" style="background-image: linear-gradient(90deg, rgba(2, 6, 23, 0.98), rgba(15, 23, 42, 0.78), rgba(2, 6, 23, 0.42)), url('./37.jpg');">
+        <div class="breadcrumb">
+            <a href="./index.html">首页</a>
+            <span>›</span>
+            <a href="./category-action-adventure.html">动作冒险</a>
+            <span>›</span>
+            <strong>魔力女声</strong>
+        </div>
+        <div class="detail-hero-inner">
+            <img class="detail-cover" src="./37.jpg" alt="魔力女声">
+            <div class="detail-copy">
+                <span class="hero-pill">2018 · 美国</span>
+                <h1>魔力女声</h1>
+                <p>一个从未出过小镇的家庭主妇，用天籁之音征服了全国评委，却无法让聋哑女儿“听见”。</p>
+                <div class="detail-meta">
+                    <span>电影</span>
+                    <span>剧情, 音乐</span>
+                    <span>评分 8.4</span>
+                    <span>热度 93</span>
+                </div>
+                <div class="tag-row detail-tags"><span>歌唱比赛</span><span>素人</span><span>母性</span></div>
+            </div>
+        </div>
+    </section>
+    <section class="detail-layout">
+        <div class="detail-main">
+<section class="player-section">
+    <div class="player-stage">
+        <video id="mainPlayer" controls playsinline preload="metadata" poster="./37.jpg"></video>
+        <button id="playOverlay" class="player-overlay" type="button" aria-label="播放 魔力女声">
+            <span class="overlay-play">▶</span>
+            <strong>魔力女声</strong>
+        </button>
+    </div>
+</section>
+<script src="./assets/hls.js"></script>
+<script>
+(function () {
+    const source = "https://customer-7t103rn8rocxo5v6.cloudflarestream.com/86ea18f9954dbaf22eff5e16c41b4a25/manifest/video.m3u8";
+    const video = document.getElementById("mainPlayer");
+    const overlay = document.getElementById("playOverlay");
+    let ready = false;
+
+    function attachSource() {
+        if (ready || !video || !source) {
+            return;
+        }
+        ready = true;
+        if (video.canPlayType("application/vnd.apple.mpegurl")) {
+            video.src = source;
+        } else if (window.Hls && window.Hls.isSupported()) {
+            const hls = new window.Hls({
+                enableWorker: true,
+                lowLatencyMode: true
+            });
+            hls.loadSource(source);
+            hls.attachMedia(video);
+        } else {
+            video.src = source;
+        }
+    }
+
+    function startPlayback() {
+        attachSource();
+        if (overlay) {
+            overlay.classList.add("is-hidden");
+        }
+        const playPromise = video.play();
+        if (playPromise && typeof playPromise.catch === "function") {
+            playPromise.catch(function () {});
+        }
+    }
+
+    if (overlay) {
+        overlay.addEventListener("click", startPlayback);
+    }
+    if (video) {
+        video.addEventListener("click", function () {
+            if (video.paused) {
+                startPlayback();
+            }
+        });
+    }
+}());
+</script>
+            <article class="text-panel">
+                <h2>剧情简介</h2>
+                <p>贝芙莉是一个超市收银员，她的声音有着惊人的魔力，但她只为聋哑女儿一人歌唱。为了赚钱给女儿装人工耳蜗，她报名参加了全国最大的歌唱选秀。从海选到决赛，她的淳朴嗓音感动了所有人，成为夺冠热门。但就在决赛前夕，医生说女儿的手术有风险，可能会导致她连现在的感知也失去。贝芙莉毅然决定退赛，在决赛之夜，她出现在女儿的病房里，贴着女儿的脸，轻轻哼唱。女儿感受着母亲声带的震动，流下了眼泪。最终，她没成为明星，但她成了女儿世界里的唯一歌者。</p>
+            </article>
+            <article class="text-panel">
+                <h2>影评推荐</h2>
+                <p>一部献给母亲的另类音乐片。没有华丽的炫技，只有最朴素的情感表达。导演将镜头死死对准人物面部，捕捉每一个细微的表情变化。女主角的表演极具说服力，她把那种“全世界追捧不如你一个微笑”的母爱诠释得淋漓尽致。</p>
+            </article>
+            <article class="text-panel info-panel">
+                <h2>影片信息</h2>
+                <dl>
+                    <div><dt>片名</dt><dd>魔力女声</dd></div>
+                    <div><dt>地区</dt><dd>美国</dd></div>
+                    <div><dt>类型</dt><dd>电影</dd></div>
+                    <div><dt>年份</dt><dd>2018</dd></div>
+                    <div><dt>题材</dt><dd>剧情, 音乐</dd></div>
+                </dl>
+            </article>
+        </div>
+        <aside class="detail-aside">
+            <div class="aside-card">
+                <h2>相关推荐</h2>
+                <div class="compact-list">
+<a class="compact-card" href="./movie-0209.html">
+    <img src="./59.jpg" alt="阿嬷冻未条" loading="lazy">
+    <span>
+        <strong>阿嬷冻未条</strong>
+        <em>2019 · 家庭剧情</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0347.html">
+    <img src="./47.jpg" alt="34街的奇迹" loading="lazy">
+    <span>
+        <strong>34街的奇迹</strong>
+        <em>2024 · 奇幻, 家庭</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0470.html">
+    <img src="./20.jpg" alt="森林孤影" loading="lazy">
+    <span>
+        <strong>森林孤影</strong>
+        <em>2023 · 惊悚, 冒险, 悬疑</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0132.html">
+    <img src="./132.jpg" alt="湖南和平起义" loading="lazy">
+    <span>
+        <strong>湖南和平起义</strong>
+        <em>2029 · 历史 / 战争</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0291.html">
+    <img src="./141.jpg" alt="兰闺飞尸" loading="lazy">
+    <span>
+        <strong>兰闺飞尸</strong>
+        <em>1980s (复古风格) · 恐怖， 喜剧， 奇幻</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0443.html">
+    <img src="./143.jpg" alt="大侦探马修" loading="lazy">
+    <span>
+        <strong>大侦探马修</strong>
+        <em>2023 · 悬疑 / 犯罪 / 剧情</em>
+    </span>
+</a>
+                </div>
+            </div>
+        </aside>
+    </section>
+    <section class="content-section">
+<div class="section-head">
+    <div>
+        <span class="section-kicker">精选片单</span>
+        <h2>更多推荐影片</h2>
+        <p>根据题材、分类与片库热度推荐</p>
+    </div>
+    <a class="section-more" href="./ranking.html">查看榜单<span>›</span></a>
+</div>
+
+        <div class="movie-grid small-grid">
+<article class="movie-card" data-card data-title="阿嬷冻未条" data-year="2019" data-type="电影" data-genre="家庭剧情" data-tags="隔代亲情 方言喜剧 阿嬷的倔强">
+    <a class="poster-link" href="./movie-0209.html" aria-label="观看 阿嬷冻未条">
+        <img src="./59.jpg" alt="阿嬷冻未条" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2019</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0209.html">阿嬷冻未条</a></h3>
+        <p>八旬阿嬷被全家送去养老院，她不甘心，拉着隔壁老爷爷策划了一场“胜利大逃亡”。</p>
+        <div class="tag-row"><span>隔代亲情</span><span>方言喜剧</span><span>阿嬷的倔强</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="34街的奇迹" data-year="2024" data-type="电影" data-genre="奇幻, 家庭" data-tags="圣诞 奇迹 信念 暖心">
+    <a class="poster-link" href="./movie-0347.html" aria-label="观看 34街的奇迹">
+        <img src="./47.jpg" alt="34街的奇迹" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2024</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0347.html">34街的奇迹</a></h3>
+        <p>一个声称是圣诞老人的流浪汉接管了百货公司，而唯一相信他的是即将被驱逐出境的单亲妈妈。</p>
+        <div class="tag-row"><span>圣诞</span><span>奇迹</span><span>信念</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="森林孤影" data-year="2023" data-type="电影" data-genre="惊悚, 冒险, 悬疑" data-tags="民俗恐怖 野人传说 搜救队 密室森林">
+    <a class="poster-link" href="./movie-0470.html" aria-label="观看 森林孤影">
+        <img src="./20.jpg" alt="森林孤影" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2023</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0470.html">森林孤影</a></h3>
+        <p>搜救队进入神秘原始森林寻找失踪驴友，却发现黑暗中除了猛兽，还有比猛兽更可怕的“东西”。</p>
+        <div class="tag-row"><span>民俗恐怖</span><span>野人传说</span><span>搜救队</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="湖南和平起义" data-year="2029" data-type="电影" data-genre="历史 / 战争" data-tags="解放战争 湖南 起义">
+    <a class="poster-link" href="./movie-0132.html" aria-label="观看 湖南和平起义">
+        <img src="./132.jpg" alt="湖南和平起义" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2029</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0132.html">湖南和平起义</a></h3>
+        <p>1949年，国民党湖南省主席程潜与第一兵团司令陈明仁，在秘密战线协助下通电起义，促成湖南和平解放。</p>
+        <div class="tag-row"><span>解放战争</span><span>湖南</span><span>起义</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="兰闺飞尸" data-year="1980" data-type="电影" data-genre="恐怖， 喜剧， 奇幻" data-tags="僵尸 邵氏风 黑色幽默 宅斗 女鬼">
+    <a class="poster-link" href="./movie-0291.html" aria-label="观看 兰闺飞尸">
+        <img src="./141.jpg" alt="兰闺飞尸" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>1980s (复古风格)</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0291.html">兰闺飞尸</a></h3>
+        <p>深宅大院内，三太太养的小白脸被谋杀后化为僵尸，每夜在闺房中复活，吓得几位心怀鬼胎的太太们原形毕露。</p>
+        <div class="tag-row"><span>僵尸</span><span>邵氏风</span><span>黑色幽默</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="大侦探马修" data-year="2023" data-type="剧集" data-genre="悬疑 / 犯罪 / 剧情" data-tags="本格推理 英伦风 安乐椅神探 连环案">
+    <a class="poster-link" href="./movie-0443.html" aria-label="观看 大侦探马修">
+        <img src="./143.jpg" alt="大侦探马修" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2023</span>
+            <span>剧集</span>
+        </div>
+        <h3><a href="./movie-0443.html">大侦探马修</a></h3>
+        <p>一个患有人脸失认症的马修，无法认出任何人，却因此成为能完全客观分析犯罪现场的顶级侦探。</p>
+        <div class="tag-row"><span>本格推理</span><span>英伦风</span><span>安乐椅神探</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="原则" data-year="2029" data-type="剧集" data-genre="律政, 剧情" data-tags="律师 道德困境 体制内">
+    <a class="poster-link" href="./movie-0427.html" aria-label="观看 原则">
+        <img src="./127.jpg" alt="原则" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2029</span>
+            <span>剧集</span>
+        </div>
+        <h3><a href="./movie-0427.html">原则</a></h3>
+        <p>县城女律师为正义对抗黑恶势力，却发现保护伞是亲生父亲。</p>
+        <div class="tag-row"><span>律师</span><span>道德困境</span><span>体制内</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="末日危机：绝境求生" data-year="2029" data-type="电影" data-genre="科幻 / 灾难 / 动作" data-tags="太阳耀斑 地堡生存 父女救赎">
+    <a class="poster-link" href="./movie-1574.html" aria-label="观看 末日危机：绝境求生">
+        <img src="./74.jpg" alt="末日危机：绝境求生" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2029</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-1574.html">末日危机：绝境求生</a></h3>
+        <p>一场太阳耀斑摧毁了地表电子设备，一个叛逆的女儿必须和患有PTSD的父亲徒步400公里求生。</p>
+        <div class="tag-row"><span>太阳耀斑</span><span>地堡生存</span><span>父女救赎</span></div>
+    </div>
+</article>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-grid"></div>
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <span class="brand-icon">▶</span>
+            <span>精选国产剧</span>
+        </div>
+        <p>精选剧集、热门片库与高清内容推荐，持续整理值得观看的影视条目。</p>
+        <div class="footer-links">
+                <a href="./category-hot-series.html">热播剧集</a>
+                <a href="./category-domestic-choice.html">国产精选</a>
+                <a href="./category-suspense-thriller.html">悬疑惊悚</a>
+                <a href="./category-urban-romance.html">爱情都市</a>
+                <a href="./category-family-ethics.html">家庭伦理</a>
+                <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+                <a href="./category-action-adventure.html">动作冒险</a>
+                <a href="./category-comedy-light.html">喜剧轻松</a>
+                <a href="./category-animation-youth.html">动漫青春</a>
+                <a href="./category-yearly-library.html">年度片库</a>
+        </div>
+        <div class="footer-bottom">© 2026 精选国产剧 · 高清剧集在线播放</div>
+    </div>
+</footer>
+<script src="./assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>我爱你 在线观看-精选国产剧</title>
+    <meta name="description" content="我爱你：空巢老人与拾荒老太，用一瓶过期酸奶和一叠手写情书，重拾爱的勇气。">
+    <meta name="keywords" content="我爱你,家庭伦理,电影,中国大陆,爱情 / 剧情 / 老年,黄昏恋,老年,深情,真实,催泪,在线播放,高清剧集">
+    <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="header-grid"></div>
+    <div class="header-inner">
+        <a class="brand" href="./index.html" aria-label="精选国产剧">
+            <span class="brand-icon">▶</span>
+            <span class="brand-text">精选国产剧</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a href="./index.html" class="nav-link">首页</a>
+            <a href="./categories.html" class="nav-link">分类</a>
+            <a href="./ranking.html" class="nav-link">热播榜</a>
+                    <a href="./category-hot-series.html" class="nav-link">热播剧集</a>
+                    <a href="./category-domestic-choice.html" class="nav-link">国产精选</a>
+                    <a href="./category-suspense-thriller.html" class="nav-link">悬疑惊悚</a>
+                    <a href="./category-urban-romance.html" class="nav-link">爱情都市</a>
+                    <a href="./category-family-ethics.html" class="nav-link">家庭伦理</a>
+                    <a href="./category-sci-fi-fantasy.html" class="nav-link">科幻奇幻</a>
+        </nav>
+        <form class="header-search" action="./search.html" method="get" data-global-search-form>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-button" type="button" data-menu-toggle aria-label="打开导航">☰</button>
+    </div>
+    <nav class="mobile-menu" data-mobile-menu aria-label="移动端导航">
+        <a href="./index.html" class="mobile-link">首页</a>
+        <a href="./categories.html" class="mobile-link">分类</a>
+        <a href="./ranking.html" class="mobile-link">热播榜</a>
+            <a href="./category-hot-series.html" class="mobile-link">热播剧集</a>
+            <a href="./category-domestic-choice.html" class="mobile-link">国产精选</a>
+            <a href="./category-suspense-thriller.html" class="mobile-link">悬疑惊悚</a>
+            <a href="./category-urban-romance.html" class="mobile-link">爱情都市</a>
+            <a href="./category-family-ethics.html" class="mobile-link">家庭伦理</a>
+            <a href="./category-sci-fi-fantasy.html" class="mobile-link">科幻奇幻</a>
+            <a href="./category-action-adventure.html" class="mobile-link">动作冒险</a>
+            <a href="./category-comedy-light.html" class="mobile-link">喜剧轻松</a>
+            <a href="./category-animation-youth.html" class="mobile-link">动漫青春</a>
+            <a href="./category-yearly-library.html" class="mobile-link">年度片库</a>
+        <form class="mobile-search" action="./search.html" method="get" data-global-search-form>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+    </nav>
+</header>
+<main>
+    <section class="detail-hero" style="background-image: linear-gradient(90deg, rgba(2, 6, 23, 0.98), rgba(15, 23, 42, 0.78), rgba(2, 6, 23, 0.42)), url('./145.jpg');">
+        <div class="breadcrumb">
+            <a href="./index.html">首页</a>
+            <span>›</span>
+            <a href="./category-family-ethics.html">家庭伦理</a>
+            <span>›</span>
+            <strong>我爱你</strong>
+        </div>
+        <div class="detail-hero-inner">
+            <img class="detail-cover" src="./145.jpg" alt="我爱你">
+            <div class="detail-copy">
+                <span class="hero-pill">2023 · 中国大陆</span>
+                <h1>我爱你</h1>
+                <p>空巢老人与拾荒老太，用一瓶过期酸奶和一叠手写情书，重拾爱的勇气。</p>
+                <div class="detail-meta">
+                    <span>电影</span>
+                    <span>爱情 / 剧情 / 老年</span>
+                    <span>评分 8.0</span>
+                    <span>热度 96</span>
+                </div>
+                <div class="tag-row detail-tags"><span>黄昏恋</span><span>老年</span><span>深情</span><span>真实</span><span>催泪</span></div>
+            </div>
+        </div>
+    </section>
+    <section class="detail-layout">
+        <div class="detail-main">
+<section class="player-section">
+    <div class="player-stage">
+        <video id="mainPlayer" controls playsinline preload="metadata" poster="./145.jpg"></video>
+        <button id="playOverlay" class="player-overlay" type="button" aria-label="播放 我爱你">
+            <span class="overlay-play">▶</span>
+            <strong>我爱你</strong>
+        </button>
+    </div>
+</section>
+<script src="./assets/hls.js"></script>
+<script>
+(function () {
+    const source = "https://customer-7t103rn8rocxo5v6.cloudflarestream.com/fe0c41d994d01211debb24e84e3384a9/manifest/video.m3u8";
+    const video = document.getElementById("mainPlayer");
+    const overlay = document.getElementById("playOverlay");
+    let ready = false;
+
+    function attachSource() {
+        if (ready || !video || !source) {
+            return;
+        }
+        ready = true;
+        if (video.canPlayType("application/vnd.apple.mpegurl")) {
+            video.src = source;
+        } else if (window.Hls && window.Hls.isSupported()) {
+            const hls = new window.Hls({
+                enableWorker: true,
+                lowLatencyMode: true
+            });
+            hls.loadSource(source);
+            hls.attachMedia(video);
+        } else {
+            video.src = source;
+        }
+    }
+
+    function startPlayback() {
+        attachSource();
+        if (overlay) {
+            overlay.classList.add("is-hidden");
+        }
+        const playPromise = video.play();
+        if (playPromise && typeof playPromise.catch === "function") {
+            playPromise.catch(function () {});
+        }
+    }
+
+    if (overlay) {
+        overlay.addEventListener("click", startPlayback);
+    }
+    if (video) {
+        video.addEventListener("click", function () {
+            if (video.paused) {
+                startPlayback();
+            }
+        });
+    }
+}());
+</script>
+            <article class="text-panel">
+                <h2>剧情简介</h2>
+                <p>退休教师老谢丧偶十年，儿女在外，每日与电视为伴。他在公园认识了靠捡废品为生的林姨，她独自供孙女读书。两人从交换旧书开始，慢慢走近。老谢买了酸奶不敢直接送，放在林姨常经过的长椅上；林姨捡到一本破损诗集，手抄整本还给他。他们的爱情没有甜言蜜语，只有一碗热粥、一件旧棉衣。当儿女得知后强烈反对，认为林姨图房产。老谢写下遗嘱将财产全捐，只为证明真心。林姨查出晚期癌症，不愿拖累老谢不告而别。老谢骑着破自行车追到火车站，在候车室当着所有人说出那三个字。</p>
+            </article>
+            <article class="text-panel">
+                <h2>影评推荐</h2>
+                <p>没有流量明星，没有华丽镜头，却让全场哭成泪人。两个老戏骨的每一个微表情都精准到帧，把“我爱你”三个字的分量演绎得重如泰山。</p>
+            </article>
+            <article class="text-panel info-panel">
+                <h2>影片信息</h2>
+                <dl>
+                    <div><dt>片名</dt><dd>我爱你</dd></div>
+                    <div><dt>地区</dt><dd>中国大陆</dd></div>
+                    <div><dt>类型</dt><dd>电影</dd></div>
+                    <div><dt>年份</dt><dd>2023</dd></div>
+                    <div><dt>题材</dt><dd>爱情 / 剧情 / 老年</dd></div>
+                </dl>
+            </article>
+        </div>
+        <aside class="detail-aside">
+            <div class="aside-card">
+                <h2>相关推荐</h2>
+                <div class="compact-list">
+<a class="compact-card" href="./movie-0312.html">
+    <img src="./12.jpg" alt="漫游火星" loading="lazy">
+    <span>
+        <strong>漫游火星</strong>
+        <em>2024 · 科幻 / 冒险 / 纪录片风格</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0138.html">
+    <img src="./138.jpg" alt="四次" loading="lazy">
+    <span>
+        <strong>四次</strong>
+        <em>2010 · 剧情</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0465.html">
+    <img src="./15.jpg" alt="童军" loading="lazy">
+    <span>
+        <strong>童军</strong>
+        <em>2022 · 喜剧 / 冒险 / 家庭</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0274.html">
+    <img src="./124.jpg" alt="贝尔戈维亚：下一章" loading="lazy">
+    <span>
+        <strong>贝尔戈维亚：下一章</strong>
+        <em>2024 · 剧情 / 历史 / 爱情</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0083.html">
+    <img src="./83.jpg" alt="党的混蛋" loading="lazy">
+    <span>
+        <strong>党的混蛋</strong>
+        <em>2026 · 政治讽刺, 剧情</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0449.html">
+    <img src="./149.jpg" alt="暗宅之谜" loading="lazy">
+    <span>
+        <strong>暗宅之谜</strong>
+        <em>2019 · 悬疑、惊悚、密室</em>
+    </span>
+</a>
+                </div>
+            </div>
+        </aside>
+    </section>
+    <section class="content-section">
+<div class="section-head">
+    <div>
+        <span class="section-kicker">精选片单</span>
+        <h2>更多推荐影片</h2>
+        <p>根据题材、分类与片库热度推荐</p>
+    </div>
+    <a class="section-more" href="./ranking.html">查看榜单<span>›</span></a>
+</div>
+
+        <div class="movie-grid small-grid">
+<article class="movie-card" data-card data-title="漫游火星" data-year="2024" data-type="电影" data-genre="科幻 / 冒险 / 纪录片风格" data-tags="硬科幻 火星殖民 孤独求生 近未来">
+    <a class="poster-link" href="./movie-0312.html" aria-label="观看 漫游火星">
+        <img src="./12.jpg" alt="漫游火星" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2024</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0312.html">漫游火星</a></h3>
+        <p>第一批火星殖民者的补给舱坠毁，五名宇航员必须在九十天内靠种土豆以外的办法活下来。</p>
+        <div class="tag-row"><span>硬科幻</span><span>火星殖民</span><span>孤独求生</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="四次" data-year="2010" data-type="电影" data-genre="剧情" data-tags="哲学 存在主义 沉默叙事 老人与狗">
+    <a class="poster-link" href="./movie-0138.html" aria-label="观看 四次">
+        <img src="./138.jpg" alt="四次" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2010</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0138.html">四次</a></h3>
+        <p>一位老人在生命最后的四季轮回中，通过四次“死亡”与万物融为一体。</p>
+        <div class="tag-row"><span>哲学</span><span>存在主义</span><span>沉默叙事</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="童军" data-year="2022" data-type="电影" data-genre="喜剧 / 冒险 / 家庭" data-tags="童子军 荒诞喜剧 儿童冒险 环保主题">
+    <a class="poster-link" href="./movie-0465.html" aria-label="观看 童军">
+        <img src="./15.jpg" alt="童军" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2022</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0465.html">童军</a></h3>
+        <p>三个童子军在森林里迷路，却意外发现了一伙盗猎者的惊天阴谋。</p>
+        <div class="tag-row"><span>童子军</span><span>荒诞喜剧</span><span>儿童冒险</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="贝尔戈维亚：下一章" data-year="2024" data-type="剧集" data-genre="剧情 / 历史 / 爱情" data-tags="英伦贵族 家族恩怨 遗产争夺 古典文学改编风">
+    <a class="poster-link" href="./movie-0274.html" aria-label="观看 贝尔戈维亚：下一章">
+        <img src="./124.jpg" alt="贝尔戈维亚：下一章" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2024</span>
+            <span>剧集</span>
+        </div>
+        <h3><a href="./movie-0274.html">贝尔戈维亚：下一章</a></h3>
+        <p>故事延续《贝尔戈维亚》的传奇，当神秘的私生子后代企图回归贵族圈，平静的伦敦上流社会再起波澜。</p>
+        <div class="tag-row"><span>英伦贵族</span><span>家族恩怨</span><span>遗产争夺</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="党的混蛋" data-year="2026" data-type="电影" data-genre="政治讽刺, 剧情" data-tags="左翼 理想主义 腐败 黑色幽默 北欧">
+    <a class="poster-link" href="./movie-0083.html" aria-label="观看 党的混蛋">
+        <img src="./83.jpg" alt="党的混蛋" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2026</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0083.html">党的混蛋</a></h3>
+        <p>丹麦最理想主义的左翼政党党魁，为了“用魔法打败魔法”，决定假装腐败打入内部，却发现自己真的很擅长腐败。</p>
+        <div class="tag-row"><span>左翼</span><span>理想主义</span><span>腐败</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="暗宅之谜" data-year="2019" data-type="电影" data-genre="悬疑、惊悚、密室" data-tags="孤宅 家族秘密 反转">
+    <a class="poster-link" href="./movie-0449.html" aria-label="观看 暗宅之谜">
+        <img src="./149.jpg" alt="暗宅之谜" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2019</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0449.html">暗宅之谜</a></h3>
+        <p>一座百年老宅，六个陌生人，一夜之间接连离奇失踪。</p>
+        <div class="tag-row"><span>孤宅</span><span>家族秘密</span><span>反转</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="同路人" data-year="2028" data-type="剧集" data-genre="历史, 爱情" data-tags="麦卡锡主义 同志 政治惊悚">
+    <a class="poster-link" href="./movie-0137.html" aria-label="观看 同路人">
+        <img src="./137.jpg" alt="同路人" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2028</span>
+            <span>剧集</span>
+        </div>
+        <h3><a href="./movie-0137.html">同路人</a></h3>
+        <p>麦卡锡时代，两个政府职员在恐同清洗中相爱并互相背叛。</p>
+        <div class="tag-row"><span>麦卡锡主义</span><span>同志</span><span>政治惊悚</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="在世人面前" data-year="2028" data-type="电影" data-genre="戏剧剧情" data-tags="舞台剧 公众审判 表演与真实 媒体暴力">
+    <a class="poster-link" href="./movie-0496.html" aria-label="观看 在世人面前">
+        <img src="./46.jpg" alt="在世人面前" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2028</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0496.html">在世人面前</a></h3>
+        <p>当一出舞台剧的演员全部换成案件中的真实人物时，观众分不清谁在表演。</p>
+        <div class="tag-row"><span>舞台剧</span><span>公众审判</span><span>表演与真实</span></div>
+    </div>
+</article>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-grid"></div>
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <span class="brand-icon">▶</span>
+            <span>精选国产剧</span>
+        </div>
+        <p>精选剧集、热门片库与高清内容推荐，持续整理值得观看的影视条目。</p>
+        <div class="footer-links">
+                <a href="./category-hot-series.html">热播剧集</a>
+                <a href="./category-domestic-choice.html">国产精选</a>
+                <a href="./category-suspense-thriller.html">悬疑惊悚</a>
+                <a href="./category-urban-romance.html">爱情都市</a>
+                <a href="./category-family-ethics.html">家庭伦理</a>
+                <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+                <a href="./category-action-adventure.html">动作冒险</a>
+                <a href="./category-comedy-light.html">喜剧轻松</a>
+                <a href="./category-animation-youth.html">动漫青春</a>
+                <a href="./category-yearly-library.html">年度片库</a>
+        </div>
+        <div class="footer-bottom">© 2026 精选国产剧 · 高清剧集在线播放</div>
+    </div>
+</footer>
+<script src="./assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>大好时光 在线观看-精选国产剧</title>
+    <meta name="description" content="大好时光：一位计划在老房子自我了断的独居老头，被一个前来偷他退休金的小混混打断，两人竟开启了奇怪的合租生活。">
+    <meta name="keywords" content="大好时光,年度片库,电影,中国大陆,剧情, 家庭,养老,黄昏恋,城市变迁,温暖,在线播放,高清剧集">
+    <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="header-grid"></div>
+    <div class="header-inner">
+        <a class="brand" href="./index.html" aria-label="精选国产剧">
+            <span class="brand-icon">▶</span>
+            <span class="brand-text">精选国产剧</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a href="./index.html" class="nav-link">首页</a>
+            <a href="./categories.html" class="nav-link">分类</a>
+            <a href="./ranking.html" class="nav-link">热播榜</a>
+                    <a href="./category-hot-series.html" class="nav-link">热播剧集</a>
+                    <a href="./category-domestic-choice.html" class="nav-link">国产精选</a>
+                    <a href="./category-suspense-thriller.html" class="nav-link">悬疑惊悚</a>
+                    <a href="./category-urban-romance.html" class="nav-link">爱情都市</a>
+                    <a href="./category-family-ethics.html" class="nav-link">家庭伦理</a>
+                    <a href="./category-sci-fi-fantasy.html" class="nav-link">科幻奇幻</a>
+        </nav>
+        <form class="header-search" action="./search.html" method="get" data-global-search-form>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-button" type="button" data-menu-toggle aria-label="打开导航">☰</button>
+    </div>
+    <nav class="mobile-menu" data-mobile-menu aria-label="移动端导航">
+        <a href="./index.html" class="mobile-link">首页</a>
+        <a href="./categories.html" class="mobile-link">分类</a>
+        <a href="./ranking.html" class="mobile-link">热播榜</a>
+            <a href="./category-hot-series.html" class="mobile-link">热播剧集</a>
+            <a href="./category-domestic-choice.html" class="mobile-link">国产精选</a>
+            <a href="./category-suspense-thriller.html" class="mobile-link">悬疑惊悚</a>
+            <a href="./category-urban-romance.html" class="mobile-link">爱情都市</a>
+            <a href="./category-family-ethics.html" class="mobile-link">家庭伦理</a>
+            <a href="./category-sci-fi-fantasy.html" class="mobile-link">科幻奇幻</a>
+            <a href="./category-action-adventure.html" class="mobile-link">动作冒险</a>
+            <a href="./category-comedy-light.html" class="mobile-link">喜剧轻松</a>
+            <a href="./category-animation-youth.html" class="mobile-link">动漫青春</a>
+            <a href="./category-yearly-library.html" class="mobile-link">年度片库</a>
+        <form class="mobile-search" action="./search.html" method="get" data-global-search-form>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+    </nav>
+</header>
+<main>
+    <section class="detail-hero" style="background-image: linear-gradient(90deg, rgba(2, 6, 23, 0.98), rgba(15, 23, 42, 0.78), rgba(2, 6, 23, 0.42)), url('./114.jpg');">
+        <div class="breadcrumb">
+            <a href="./index.html">首页</a>
+            <span>›</span>
+            <a href="./category-yearly-library.html">年度片库</a>
+            <span>›</span>
+            <strong>大好时光</strong>
+        </div>
+        <div class="detail-hero-inner">
+            <img class="detail-cover" src="./114.jpg" alt="大好时光">
+            <div class="detail-copy">
+                <span class="hero-pill">2023 · 中国大陆</span>
+                <h1>大好时光</h1>
+                <p>一位计划在老房子自我了断的独居老头，被一个前来偷他退休金的小混混打断，两人竟开启了奇怪的合租生活。</p>
+                <div class="detail-meta">
+                    <span>电影</span>
+                    <span>剧情, 家庭</span>
+                    <span>评分 9.7</span>
+                    <span>热度 78</span>
+                </div>
+                <div class="tag-row detail-tags"><span>养老</span><span>黄昏恋</span><span>城市变迁</span><span>温暖</span></div>
+            </div>
+        </div>
+    </section>
+    <section class="detail-layout">
+        <div class="detail-main">
+<section class="player-section">
+    <div class="player-stage">
+        <video id="mainPlayer" controls playsinline preload="metadata" poster="./114.jpg"></video>
+        <button id="playOverlay" class="player-overlay" type="button" aria-label="播放 大好时光">
+            <span class="overlay-play">▶</span>
+            <strong>大好时光</strong>
+        </button>
+    </div>
+</section>
+<script src="./assets/hls.js"></script>
+<script>
+(function () {
+    const source = "https://customer-7t103rn8rocxo5v6.cloudflarestream.com/31227358d3c181b7168e28ad248cfb4e/manifest/video.m3u8";
+    const video = document.getElementById("mainPlayer");
+    const overlay = document.getElementById("playOverlay");
+    let ready = false;
+
+    function attachSource() {
+        if (ready || !video || !source) {
+            return;
+        }
+        ready = true;
+        if (video.canPlayType("application/vnd.apple.mpegurl")) {
+            video.src = source;
+        } else if (window.Hls && window.Hls.isSupported()) {
+            const hls = new window.Hls({
+                enableWorker: true,
+                lowLatencyMode: true
+            });
+            hls.loadSource(source);
+            hls.attachMedia(video);
+        } else {
+            video.src = source;
+        }
+    }
+
+    function startPlayback() {
+        attachSource();
+        if (overlay) {
+            overlay.classList.add("is-hidden");
+        }
+        const playPromise = video.play();
+        if (playPromise && typeof playPromise.catch === "function") {
+            playPromise.catch(function () {});
+        }
+    }
+
+    if (overlay) {
+        overlay.addEventListener("click", startPlayback);
+    }
+    if (video) {
+        video.addEventListener("click", function () {
+            if (video.paused) {
+                startPlayback();
+            }
+        });
+    }
+}());
+</script>
+            <article class="text-panel">
+                <h2>剧情简介</h2>
+                <p>退休钳工老李住在即将拆迁的工人新村里，老伴去世，儿子在国外。他每天对着墙上的老照片发呆，决定在今天“体面地走”。当他穿好中山装、写好遗书、准备推开窗户时，一个小混混阿豪从窗户翻了进来，直奔他的床底找存折。老李平静地看着他翻箱倒柜，然后递给他一杯水说：“喝了再找，别急。”阿豪被这种态度弄懵了，反而不敢动手。老李说：“你可以偷钱，但得先陪我吃顿早饭。”结果阿豪不仅没偷到钱，反而被老李留下打了一天的柜子，晚上还被赶去沙发睡。原来老李年轻时是八级钳工，他发现阿豪其实是个善良的孩子，只是被所谓的“大哥”逼着还债。一老一少开始在这栋即将消失的楼里搭伙过日子，老李教阿豪手艺，阿豪帮老李对抗拆迁办，直到儿子突然回国要卖房……</p>
+            </article>
+            <article class="text-panel">
+                <h2>影评推荐</h2>
+                <p>一部笑中带泪的现实主义佳作，将空巢老人与迷茫青年的困境巧妙缝合。台词生活化又充满智慧，老李那句“人活着就是为了那几个大好时光”是全片题眼。结尾没有强行大团圆，但那份跨越代际的温情足以抵御寒冬。</p>
+            </article>
+            <article class="text-panel info-panel">
+                <h2>影片信息</h2>
+                <dl>
+                    <div><dt>片名</dt><dd>大好时光</dd></div>
+                    <div><dt>地区</dt><dd>中国大陆</dd></div>
+                    <div><dt>类型</dt><dd>电影</dd></div>
+                    <div><dt>年份</dt><dd>2023</dd></div>
+                    <div><dt>题材</dt><dd>剧情, 家庭</dd></div>
+                </dl>
+            </article>
+        </div>
+        <aside class="detail-aside">
+            <div class="aside-card">
+                <h2>相关推荐</h2>
+                <div class="compact-list">
+<a class="compact-card" href="./movie-0274.html">
+    <img src="./124.jpg" alt="贝尔戈维亚：下一章" loading="lazy">
+    <span>
+        <strong>贝尔戈维亚：下一章</strong>
+        <em>2024 · 剧情 / 历史 / 爱情</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0142.html">
+    <img src="./142.jpg" alt="最美逆行" loading="lazy">
+    <span>
+        <strong>最美逆行</strong>
+        <em>2020 · 灾难 / 剧情 / 纪实</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0489.html">
+    <img src="./39.jpg" alt="无敌连环鎗" loading="lazy">
+    <span>
+        <strong>无敌连环鎗</strong>
+        <em>2024 · 动作, 枪战, 犯罪</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0356.html">
+    <img src="./56.jpg" alt="巨猩传说" loading="lazy">
+    <span>
+        <strong>巨猩传说</strong>
+        <em>2025 · 动作 / 冒险 / 奇幻</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0068.html">
+    <img src="./68.jpg" alt="骆驼女孩的沙漠之旅" loading="lazy">
+    <span>
+        <strong>骆驼女孩的沙漠之旅</strong>
+        <em>2026 · 冒险, 剧情, 传记</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0429.html">
+    <img src="./129.jpg" alt="鼠人" loading="lazy">
+    <span>
+        <strong>鼠人</strong>
+        <em>2026 · 恐怖 / 身体 horror / 心理</em>
+    </span>
+</a>
+                </div>
+            </div>
+        </aside>
+    </section>
+    <section class="content-section">
+<div class="section-head">
+    <div>
+        <span class="section-kicker">精选片单</span>
+        <h2>更多推荐影片</h2>
+        <p>根据题材、分类与片库热度推荐</p>
+    </div>
+    <a class="section-more" href="./ranking.html">查看榜单<span>›</span></a>
+</div>
+
+        <div class="movie-grid small-grid">
+<article class="movie-card" data-card data-title="贝尔戈维亚：下一章" data-year="2024" data-type="剧集" data-genre="剧情 / 历史 / 爱情" data-tags="英伦贵族 家族恩怨 遗产争夺 古典文学改编风">
+    <a class="poster-link" href="./movie-0274.html" aria-label="观看 贝尔戈维亚：下一章">
+        <img src="./124.jpg" alt="贝尔戈维亚：下一章" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2024</span>
+            <span>剧集</span>
+        </div>
+        <h3><a href="./movie-0274.html">贝尔戈维亚：下一章</a></h3>
+        <p>故事延续《贝尔戈维亚》的传奇，当神秘的私生子后代企图回归贵族圈，平静的伦敦上流社会再起波澜。</p>
+        <div class="tag-row"><span>英伦贵族</span><span>家族恩怨</span><span>遗产争夺</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="最美逆行" data-year="2020" data-type="电影" data-genre="灾难 / 剧情 / 纪实" data-tags="抗疫 医护人员 武汉 真实事件改编 逆行">
+    <a class="poster-link" href="./movie-0142.html" aria-label="观看 最美逆行">
+        <img src="./142.jpg" alt="最美逆行" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2020</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0142.html">最美逆行</a></h3>
+        <p>疫情暴发，武汉封城，护士长肖砚在请战书写下“不计报酬，无论生死”，和同事们踏上了那条通往风暴中心的“最美逆行”。</p>
+        <div class="tag-row"><span>抗疫</span><span>医护人员</span><span>武汉</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="无敌连环鎗" data-year="2024" data-type="电影" data-genre="动作, 枪战, 犯罪" data-tags="警匪 双雄 枪械 硬汉 港风">
+    <a class="poster-link" href="./movie-0489.html" aria-label="观看 无敌连环鎗">
+        <img src="./39.jpg" alt="无敌连环鎗" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2024</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0489.html">无敌连环鎗</a></h3>
+        <p>老派神枪手与新生代战术专家在废弃商场里，展开一场关于子弹时间的生死豪赌。</p>
+        <div class="tag-row"><span>警匪</span><span>双雄</span><span>枪械</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="巨猩传说" data-year="2025" data-type="电影" data-genre="动作 / 冒险 / 奇幻" data-tags="巨型猩猩 原始森林 部落 人与自然 IMAX">
+    <a class="poster-link" href="./movie-0356.html" aria-label="观看 巨猩传说">
+        <img src="./56.jpg" alt="巨猩传说" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2025</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0356.html">巨猩传说</a></h3>
+        <p>探险队在南太平洋孤岛发现一头12米高的巨型猩猩，当地土著奉它为神明，而偷猎者想取其基因发财。</p>
+        <div class="tag-row"><span>巨型猩猩</span><span>原始森林</span><span>部落</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="骆驼女孩的沙漠之旅" data-year="2026" data-type="电影" data-genre="冒险, 剧情, 传记" data-tags="真实事件改编 女性探险家 沙漠穿越 自我救赎">
+    <a class="poster-link" href="./movie-0068.html" aria-label="观看 骆驼女孩的沙漠之旅">
+        <img src="./68.jpg" alt="骆驼女孩的沙漠之旅" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2026</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0068.html">骆驼女孩的沙漠之旅</a></h3>
+        <p>被确诊绝症的女孩决定骑骆驼穿越澳大利亚大沙漠，只为亲眼看到那片父亲画中的盐湖。</p>
+        <div class="tag-row"><span>真实事件改编</span><span>女性探险家</span><span>沙漠穿越</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="鼠人" data-year="2026" data-type="电影" data-genre="恐怖 / 身体 horror / 心理" data-tags="都市传说 寄生虫 地下社会 变异 密室逃脱">
+    <a class="poster-link" href="./movie-0429.html" aria-label="观看 鼠人">
+        <img src="./129.jpg" alt="鼠人" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2026</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0429.html">鼠人</a></h3>
+        <p>东京地下排水系统出现半人半鼠的怪物，一群跌落的社会边缘人在黑暗中发现了更可怕的真相。</p>
+        <div class="tag-row"><span>都市传说</span><span>寄生虫</span><span>地下社会</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="毒后秘史" data-year="2027" data-type="电视剧 (30集)" data-genre="犯罪 / 剧情 / 传记" data-tags="枭雄 女性 年代 卧底">
+    <a class="poster-link" href="./movie-0407.html" aria-label="观看 毒后秘史">
+        <img src="./107.jpg" alt="毒后秘史" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2027</span>
+            <span>电视剧 (30集)</span>
+        </div>
+        <h3><a href="./movie-0407.html">毒后秘史</a></h3>
+        <p>上世纪八九十年代，从一个普通按摩女到亚洲最大女毒枭，她的崛起背后是三个男人的血与背叛。</p>
+        <div class="tag-row"><span>枭雄</span><span>女性</span><span>年代</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="鬼域" data-year="2027" data-type="电影" data-genre="恐怖、惊悚、奇幻" data-tags="灵异 废弃之地 都市传说 心理恐惧 港式恐怖">
+    <a class="poster-link" href="./movie-1053.html" aria-label="观看 鬼域">
+        <img src="./3.jpg" alt="鬼域" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2027</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-1053.html">鬼域</a></h3>
+        <p>一个专门探废的视频博主，在进入一个废弃的“闹鬼主题乐园”后，发现自己童年丢弃的所有东西，都活了过来。</p>
+        <div class="tag-row"><span>灵异</span><span>废弃之地</span><span>都市传说</span></div>
+    </div>
+</article>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-grid"></div>
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <span class="brand-icon">▶</span>
+            <span>精选国产剧</span>
+        </div>
+        <p>精选剧集、热门片库与高清内容推荐，持续整理值得观看的影视条目。</p>
+        <div class="footer-links">
+                <a href="./category-hot-series.html">热播剧集</a>
+                <a href="./category-domestic-choice.html">国产精选</a>
+                <a href="./category-suspense-thriller.html">悬疑惊悚</a>
+                <a href="./category-urban-romance.html">爱情都市</a>
+                <a href="./category-family-ethics.html">家庭伦理</a>
+                <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+                <a href="./category-action-adventure.html">动作冒险</a>
+                <a href="./category-comedy-light.html">喜剧轻松</a>
+                <a href="./category-animation-youth.html">动漫青春</a>
+                <a href="./category-yearly-library.html">年度片库</a>
+        </div>
+        <div class="footer-bottom">© 2026 精选国产剧 · 高清剧集在线播放</div>
+    </div>
+</footer>
+<script src="./assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

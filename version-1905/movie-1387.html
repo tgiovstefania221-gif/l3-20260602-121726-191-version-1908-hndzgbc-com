@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>七十七天 在线观看-精选国产剧</title>
+    <meta name="description" content="七十七天：一名男子独自推着自行车穿越羌塘无人区，第 77 天他遇到了一个背向而行的女人。">
+    <meta name="keywords" content="七十七天,喜剧轻松,电影,中国内地,冒险，剧情,无人区,独行,自救,羌塘,真实改编,在线播放,高清剧集">
+    <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="header-grid"></div>
+    <div class="header-inner">
+        <a class="brand" href="./index.html" aria-label="精选国产剧">
+            <span class="brand-icon">▶</span>
+            <span class="brand-text">精选国产剧</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a href="./index.html" class="nav-link">首页</a>
+            <a href="./categories.html" class="nav-link">分类</a>
+            <a href="./ranking.html" class="nav-link">热播榜</a>
+                    <a href="./category-hot-series.html" class="nav-link">热播剧集</a>
+                    <a href="./category-domestic-choice.html" class="nav-link">国产精选</a>
+                    <a href="./category-suspense-thriller.html" class="nav-link">悬疑惊悚</a>
+                    <a href="./category-urban-romance.html" class="nav-link">爱情都市</a>
+                    <a href="./category-family-ethics.html" class="nav-link">家庭伦理</a>
+                    <a href="./category-sci-fi-fantasy.html" class="nav-link">科幻奇幻</a>
+        </nav>
+        <form class="header-search" action="./search.html" method="get" data-global-search-form>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-button" type="button" data-menu-toggle aria-label="打开导航">☰</button>
+    </div>
+    <nav class="mobile-menu" data-mobile-menu aria-label="移动端导航">
+        <a href="./index.html" class="mobile-link">首页</a>
+        <a href="./categories.html" class="mobile-link">分类</a>
+        <a href="./ranking.html" class="mobile-link">热播榜</a>
+            <a href="./category-hot-series.html" class="mobile-link">热播剧集</a>
+            <a href="./category-domestic-choice.html" class="mobile-link">国产精选</a>
+            <a href="./category-suspense-thriller.html" class="mobile-link">悬疑惊悚</a>
+            <a href="./category-urban-romance.html" class="mobile-link">爱情都市</a>
+            <a href="./category-family-ethics.html" class="mobile-link">家庭伦理</a>
+            <a href="./category-sci-fi-fantasy.html" class="mobile-link">科幻奇幻</a>
+            <a href="./category-action-adventure.html" class="mobile-link">动作冒险</a>
+            <a href="./category-comedy-light.html" class="mobile-link">喜剧轻松</a>
+            <a href="./category-animation-youth.html" class="mobile-link">动漫青春</a>
+            <a href="./category-yearly-library.html" class="mobile-link">年度片库</a>
+        <form class="mobile-search" action="./search.html" method="get" data-global-search-form>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+    </nav>
+</header>
+<main>
+    <section class="detail-hero" style="background-image: linear-gradient(90deg, rgba(2, 6, 23, 0.98), rgba(15, 23, 42, 0.78), rgba(2, 6, 23, 0.42)), url('./37.jpg');">
+        <div class="breadcrumb">
+            <a href="./index.html">首页</a>
+            <span>›</span>
+            <a href="./category-comedy-light.html">喜剧轻松</a>
+            <span>›</span>
+            <strong>七十七天</strong>
+        </div>
+        <div class="detail-hero-inner">
+            <img class="detail-cover" src="./37.jpg" alt="七十七天">
+            <div class="detail-copy">
+                <span class="hero-pill">2025 · 中国内地</span>
+                <h1>七十七天</h1>
+                <p>一名男子独自推着自行车穿越羌塘无人区，第 77 天他遇到了一个背向而行的女人。</p>
+                <div class="detail-meta">
+                    <span>电影</span>
+                    <span>冒险，剧情</span>
+                    <span>评分 9.5</span>
+                    <span>热度 97</span>
+                </div>
+                <div class="tag-row detail-tags"><span>无人区</span><span>独行</span><span>自救</span><span>羌塘</span><span>真实改编</span></div>
+            </div>
+        </div>
+    </section>
+    <section class="detail-layout">
+        <div class="detail-main">
+<section class="player-section">
+    <div class="player-stage">
+        <video id="mainPlayer" controls playsinline preload="metadata" poster="./37.jpg"></video>
+        <button id="playOverlay" class="player-overlay" type="button" aria-label="播放 七十七天">
+            <span class="overlay-play">▶</span>
+            <strong>七十七天</strong>
+        </button>
+    </div>
+</section>
+<script src="./assets/hls.js"></script>
+<script>
+(function () {
+    const source = "https://customer-7t103rn8rocxo5v6.cloudflarestream.com/86ea18f9954dbaf22eff5e16c41b4a25/manifest/video.m3u8";
+    const video = document.getElementById("mainPlayer");
+    const overlay = document.getElementById("playOverlay");
+    let ready = false;
+
+    function attachSource() {
+        if (ready || !video || !source) {
+            return;
+        }
+        ready = true;
+        if (video.canPlayType("application/vnd.apple.mpegurl")) {
+            video.src = source;
+        } else if (window.Hls && window.Hls.isSupported()) {
+            const hls = new window.Hls({
+                enableWorker: true,
+                lowLatencyMode: true
+            });
+            hls.loadSource(source);
+            hls.attachMedia(video);
+        } else {
+            video.src = source;
+        }
+    }
+
+    function startPlayback() {
+        attachSource();
+        if (overlay) {
+            overlay.classList.add("is-hidden");
+        }
+        const playPromise = video.play();
+        if (playPromise && typeof playPromise.catch === "function") {
+            playPromise.catch(function () {});
+        }
+    }
+
+    if (overlay) {
+        overlay.addEventListener("click", startPlayback);
+    }
+    if (video) {
+        video.addEventListener("click", function () {
+            if (video.paused) {
+                startPlayback();
+            }
+        });
+    }
+}());
+</script>
+            <article class="text-panel">
+                <h2>剧情简介</h2>
+                <p>改编自真实穿越事件。户外爱好者老杨辞掉工作，用三年时间准备，只身推着一辆改装自行车进入羌塘无人区，计划用 80 天横穿。前 40 天，他经历了狼群围困、断水断粮、暴风雪和幻觉。第 41 天，他的 GPS 掉进冰缝，完全失去方向。之后的日子全靠太阳和星辰。第 65 天，他吃光了最后一块压缩饼干，开始吃皮带、鞋底、甚至是冻硬的苔藓。第 77 天黄昏，他在一片盐碱地边缘看到了一个人——一个女人，没有自行车，没有背包，穿着一件褪色的红色冲锋衣，逆着光朝他走来。两人擦肩而过，女人对他笑了一下，嘴唇干裂出血。老杨回头时，身后只有茫茫荒原。他最终在第 84 天走出无人区，体重只剩 45 公斤。后来有科考队说，那一年无人区内没有任何女性穿越者。</p>
+            </article>
+            <article class="text-panel">
+                <h2>影评推荐</h2>
+                <p>极简主义生存电影，没有配乐的大段静默让你听见自己的心跳。那个神秘女人是全片最温柔的谜，她不是鬼魂，不是幻觉，她是每一个孤独远行者内心最深处不愿承认的渴望——被看见。</p>
+            </article>
+            <article class="text-panel info-panel">
+                <h2>影片信息</h2>
+                <dl>
+                    <div><dt>片名</dt><dd>七十七天</dd></div>
+                    <div><dt>地区</dt><dd>中国内地</dd></div>
+                    <div><dt>类型</dt><dd>电影</dd></div>
+                    <div><dt>年份</dt><dd>2025</dd></div>
+                    <div><dt>题材</dt><dd>冒险，剧情</dd></div>
+                </dl>
+            </article>
+        </div>
+        <aside class="detail-aside">
+            <div class="aside-card">
+                <h2>相关推荐</h2>
+                <div class="compact-list">
+<a class="compact-card" href="./movie-0452.html">
+    <img src="./2.jpg" alt="三相逢粤语" loading="lazy">
+    <span>
+        <strong>三相逢粤语</strong>
+        <em>1993 · 剧情、家庭、都市</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0226.html">
+    <img src="./76.jpg" alt="黑夜如潮" loading="lazy">
+    <span>
+        <strong>黑夜如潮</strong>
+        <em>2026 · 悬疑犯罪</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0398.html">
+    <img src="./98.jpg" alt="晴空战士" loading="lazy">
+    <span>
+        <strong>晴空战士</strong>
+        <em>2025 · 动作, 科幻, 战争</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0124.html">
+    <img src="./124.jpg" alt="黑玫瑰公寓" loading="lazy">
+    <span>
+        <strong>黑玫瑰公寓</strong>
+        <em>2020 · 悬疑, 恐怖</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0487.html">
+    <img src="./37.jpg" alt="海角恋人" loading="lazy">
+    <span>
+        <strong>海角恋人</strong>
+        <em>2018 · 爱情, 偶像</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0303.html">
+    <img src="./3.jpg" alt="星愿粤语" loading="lazy">
+    <span>
+        <strong>星愿粤语</strong>
+        <em>2019 · 歌舞,爱情,剧情,城市记忆</em>
+    </span>
+</a>
+                </div>
+            </div>
+        </aside>
+    </section>
+    <section class="content-section">
+<div class="section-head">
+    <div>
+        <span class="section-kicker">精选片单</span>
+        <h2>更多推荐影片</h2>
+        <p>根据题材、分类与片库热度推荐</p>
+    </div>
+    <a class="section-more" href="./ranking.html">查看榜单<span>›</span></a>
+</div>
+
+        <div class="movie-grid small-grid">
+<article class="movie-card" data-card data-title="三相逢粤语" data-year="1993" data-type="电视剧" data-genre="剧情、家庭、都市" data-tags="TVB 三兄弟 港风 怀旧 创业">
+    <a class="poster-link" href="./movie-0452.html" aria-label="观看 三相逢粤语">
+        <img src="./2.jpg" alt="三相逢粤语" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>1993</span>
+            <span>电视剧</span>
+        </div>
+        <h3><a href="./movie-0452.html">三相逢粤语</a></h3>
+        <p>三个性格迥异、失散多年的亲兄弟在90年代的香港意外重逢，一个成为金融大鳄，一个沦为黑帮打手，另一个却是老实巴交的出租车司机。</p>
+        <div class="tag-row"><span>TVB</span><span>三兄弟</span><span>港风</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="黑夜如潮" data-year="2026" data-type="电影" data-genre="悬疑犯罪" data-tags="黑帮 卧底 记忆篡改 镰仓海岸">
+    <a class="poster-link" href="./movie-0226.html" aria-label="观看 黑夜如潮">
+        <img src="./76.jpg" alt="黑夜如潮" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2026</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0226.html">黑夜如潮</a></h3>
+        <p>一个失忆的黑帮杀手在镰仓海边醒来，身边只有一具尸体和一张写着自己名字的通缉令。</p>
+        <div class="tag-row"><span>黑帮</span><span>卧底</span><span>记忆篡改</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="晴空战士" data-year="2025" data-type="电影" data-genre="动作, 科幻, 战争" data-tags="反乌托邦 空军 基因改造 空战">
+    <a class="poster-link" href="./movie-0398.html" aria-label="观看 晴空战士">
+        <img src="./98.jpg" alt="晴空战士" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2025</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0398.html">晴空战士</a></h3>
+        <p>在严重污染的未来，基因改造的“晴空战士”小队为人类抢夺最后一片净土，却发现自己也是污染源。</p>
+        <div class="tag-row"><span>反乌托邦</span><span>空军</span><span>基因改造</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="黑玫瑰公寓" data-year="2020" data-type="电影" data-genre="悬疑, 恐怖" data-tags="公寓 诅咒 女性 哥特">
+    <a class="poster-link" href="./movie-0124.html" aria-label="观看 黑玫瑰公寓">
+        <img src="./124.jpg" alt="黑玫瑰公寓" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2020</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0124.html">黑玫瑰公寓</a></h3>
+        <p>三名女孩搬进巴黎一栋古老公寓，发现墙壁里藏着一百年前“黑玫瑰”连环杀手的遗物。</p>
+        <div class="tag-row"><span>公寓</span><span>诅咒</span><span>女性</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="海角恋人" data-year="2018" data-type="网络剧" data-genre="爱情, 偶像" data-tags="海岛 治愈 创业 富二代 海滨">
+    <a class="poster-link" href="./movie-0487.html" aria-label="观看 海角恋人">
+        <img src="./37.jpg" alt="海角恋人" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2018</span>
+            <span>网络剧</span>
+        </div>
+        <h3><a href="./movie-0487.html">海角恋人</a></h3>
+        <p>被家族抛弃的富二代在海角民宿当打工仔，与脾气火爆的渔村少女从互怼到相爱。</p>
+        <div class="tag-row"><span>海岛</span><span>治愈</span><span>创业</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="星愿粤语" data-year="2019" data-type="音乐电影" data-genre="歌舞,爱情,剧情,城市记忆" data-tags="粤语音乐 九十年代 地下演出 梦想复出 版权争议 黑帮资本">
+    <a class="poster-link" href="./movie-0303.html" aria-label="观看 星愿粤语">
+        <img src="./3.jpg" alt="星愿粤语" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2019</span>
+            <span>音乐电影</span>
+        </div>
+        <h3><a href="./movie-0303.html">星愿粤语</a></h3>
+        <p>阿炜在失明最深的夜里唱响未完成的粤语情歌，星愿不是迷信，而是把一代人的记忆与失语一起找回来。</p>
+        <div class="tag-row"><span>粤语音乐</span><span>九十年代</span><span>地下演出</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="摄影机不要停！" data-year="2028" data-type="电影" data-genre="喜剧, 恐怖, 剧情" data-tags="一镜到底 幕后花絮式恐怖 低成本 戏中戏 热血">
+    <a class="poster-link" href="./movie-0968.html" aria-label="观看 摄影机不要停！">
+        <img src="./68.jpg" alt="摄影机不要停！" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2028</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0968.html">摄影机不要停！</a></h3>
+        <p>一个电影剧组在废弃工厂拍摄僵尸片时遭遇真僵尸，导演却大喊“摄影机不要停！”，逼着所有人继续演。</p>
+        <div class="tag-row"><span>一镜到底</span><span>幕后花絮式恐怖</span><span>低成本</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="八个够晒数续集" data-year="2027" data-type="电影" data-genre="喜剧, 动作, 犯罪" data-tags="港式无厘头 乌龙劫匪 原班人马 恶搞经典 闹剧">
+    <a class="poster-link" href="./movie-1179.html" aria-label="观看 八个够晒数续集">
+        <img src="./129.jpg" alt="八个够晒数续集" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2027</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-1179.html">八个够晒数续集</a></h3>
+        <p>当年那八个乌龙劫匪出狱重聚，本想金盆洗手，却被人陷害再次背锅，不得不重出江湖。</p>
+        <div class="tag-row"><span>港式无厘头</span><span>乌龙劫匪</span><span>原班人马</span></div>
+    </div>
+</article>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-grid"></div>
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <span class="brand-icon">▶</span>
+            <span>精选国产剧</span>
+        </div>
+        <p>精选剧集、热门片库与高清内容推荐，持续整理值得观看的影视条目。</p>
+        <div class="footer-links">
+                <a href="./category-hot-series.html">热播剧集</a>
+                <a href="./category-domestic-choice.html">国产精选</a>
+                <a href="./category-suspense-thriller.html">悬疑惊悚</a>
+                <a href="./category-urban-romance.html">爱情都市</a>
+                <a href="./category-family-ethics.html">家庭伦理</a>
+                <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+                <a href="./category-action-adventure.html">动作冒险</a>
+                <a href="./category-comedy-light.html">喜剧轻松</a>
+                <a href="./category-animation-youth.html">动漫青春</a>
+                <a href="./category-yearly-library.html">年度片库</a>
+        </div>
+        <div class="footer-bottom">© 2026 精选国产剧 · 高清剧集在线播放</div>
+    </div>
+</footer>
+<script src="./assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

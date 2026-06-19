@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>徬徨的爱 在线观看-精选国产剧</title>
+    <meta name="description" content="徬徨的爱：一封寄不出的情书，让她在母亲安排的婚姻与心底的爱人之间徘徊。">
+    <meta name="keywords" content="徬徨的爱,悬疑惊悚,电影,台湾地区,爱情、剧情,同性,家庭压力,自我认同,在线播放,高清剧集">
+    <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="header-grid"></div>
+    <div class="header-inner">
+        <a class="brand" href="./index.html" aria-label="精选国产剧">
+            <span class="brand-icon">▶</span>
+            <span class="brand-text">精选国产剧</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a href="./index.html" class="nav-link">首页</a>
+            <a href="./categories.html" class="nav-link">分类</a>
+            <a href="./ranking.html" class="nav-link">热播榜</a>
+                    <a href="./category-hot-series.html" class="nav-link">热播剧集</a>
+                    <a href="./category-domestic-choice.html" class="nav-link">国产精选</a>
+                    <a href="./category-suspense-thriller.html" class="nav-link">悬疑惊悚</a>
+                    <a href="./category-urban-romance.html" class="nav-link">爱情都市</a>
+                    <a href="./category-family-ethics.html" class="nav-link">家庭伦理</a>
+                    <a href="./category-sci-fi-fantasy.html" class="nav-link">科幻奇幻</a>
+        </nav>
+        <form class="header-search" action="./search.html" method="get" data-global-search-form>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-button" type="button" data-menu-toggle aria-label="打开导航">☰</button>
+    </div>
+    <nav class="mobile-menu" data-mobile-menu aria-label="移动端导航">
+        <a href="./index.html" class="mobile-link">首页</a>
+        <a href="./categories.html" class="mobile-link">分类</a>
+        <a href="./ranking.html" class="mobile-link">热播榜</a>
+            <a href="./category-hot-series.html" class="mobile-link">热播剧集</a>
+            <a href="./category-domestic-choice.html" class="mobile-link">国产精选</a>
+            <a href="./category-suspense-thriller.html" class="mobile-link">悬疑惊悚</a>
+            <a href="./category-urban-romance.html" class="mobile-link">爱情都市</a>
+            <a href="./category-family-ethics.html" class="mobile-link">家庭伦理</a>
+            <a href="./category-sci-fi-fantasy.html" class="mobile-link">科幻奇幻</a>
+            <a href="./category-action-adventure.html" class="mobile-link">动作冒险</a>
+            <a href="./category-comedy-light.html" class="mobile-link">喜剧轻松</a>
+            <a href="./category-animation-youth.html" class="mobile-link">动漫青春</a>
+            <a href="./category-yearly-library.html" class="mobile-link">年度片库</a>
+        <form class="mobile-search" action="./search.html" method="get" data-global-search-form>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+    </nav>
+</header>
+<main>
+    <section class="detail-hero" style="background-image: linear-gradient(90deg, rgba(2, 6, 23, 0.98), rgba(15, 23, 42, 0.78), rgba(2, 6, 23, 0.42)), url('./85.jpg');">
+        <div class="breadcrumb">
+            <a href="./index.html">首页</a>
+            <span>›</span>
+            <a href="./category-suspense-thriller.html">悬疑惊悚</a>
+            <span>›</span>
+            <strong>徬徨的爱</strong>
+        </div>
+        <div class="detail-hero-inner">
+            <img class="detail-cover" src="./85.jpg" alt="徬徨的爱">
+            <div class="detail-copy">
+                <span class="hero-pill">2025 · 台湾地区</span>
+                <h1>徬徨的爱</h1>
+                <p>一封寄不出的情书，让她在母亲安排的婚姻与心底的爱人之间徘徊。</p>
+                <div class="detail-meta">
+                    <span>电影</span>
+                    <span>爱情、剧情</span>
+                    <span>评分 9.8</span>
+                    <span>热度 79</span>
+                </div>
+                <div class="tag-row detail-tags"><span>同性</span><span>家庭压力</span><span>自我认同</span></div>
+            </div>
+        </div>
+    </section>
+    <section class="detail-layout">
+        <div class="detail-main">
+<section class="player-section">
+    <div class="player-stage">
+        <video id="mainPlayer" controls playsinline preload="metadata" poster="./85.jpg"></video>
+        <button id="playOverlay" class="player-overlay" type="button" aria-label="播放 徬徨的爱">
+            <span class="overlay-play">▶</span>
+            <strong>徬徨的爱</strong>
+        </button>
+    </div>
+</section>
+<script src="./assets/hls.js"></script>
+<script>
+(function () {
+    const source = "https://customer-7t103rn8rocxo5v6.cloudflarestream.com/d0af4221b8947fda8c23f4955947cb58/manifest/video.m3u8";
+    const video = document.getElementById("mainPlayer");
+    const overlay = document.getElementById("playOverlay");
+    let ready = false;
+
+    function attachSource() {
+        if (ready || !video || !source) {
+            return;
+        }
+        ready = true;
+        if (video.canPlayType("application/vnd.apple.mpegurl")) {
+            video.src = source;
+        } else if (window.Hls && window.Hls.isSupported()) {
+            const hls = new window.Hls({
+                enableWorker: true,
+                lowLatencyMode: true
+            });
+            hls.loadSource(source);
+            hls.attachMedia(video);
+        } else {
+            video.src = source;
+        }
+    }
+
+    function startPlayback() {
+        attachSource();
+        if (overlay) {
+            overlay.classList.add("is-hidden");
+        }
+        const playPromise = video.play();
+        if (playPromise && typeof playPromise.catch === "function") {
+            playPromise.catch(function () {});
+        }
+    }
+
+    if (overlay) {
+        overlay.addEventListener("click", startPlayback);
+    }
+    if (video) {
+        video.addEventListener("click", function () {
+            if (video.paused) {
+                startPlayback();
+            }
+        });
+    }
+}());
+</script>
+            <article class="text-panel">
+                <h2>剧情简介</h2>
+                <p>三十岁的摄影师晓风在母亲的安排下，与温文尔雅的牙医阿正开始了以结婚为前提的交往。一切都很完美，除了她心里住着一个从未敢向家人提及的名字——她的大学同学、现在旅居海外的女孩小海。当小海突然回国并邀请晓风作为她的新书摄影时，晓风平静的生活彻底被打乱。她游走于两个世界之间，既要扮演乖巧的女儿与体贴的女友，又无法抗拒与小海重温旧梦的渴望。一次家庭聚餐上，母亲的催婚与小海发来的暧昧信息同时到达，晓风被迫做出选择。</p>
+            </article>
+            <article class="text-panel">
+                <h2>影评推荐</h2>
+                <p>导演用细腻的镜头语言捕捉了主角眼神中的犹豫与挣扎，将东方家庭中难以言说的情感压力表现得淋漓尽致。没有激烈的戏剧冲突，却每一个细节都透着刺骨的彷徨。</p>
+            </article>
+            <article class="text-panel info-panel">
+                <h2>影片信息</h2>
+                <dl>
+                    <div><dt>片名</dt><dd>徬徨的爱</dd></div>
+                    <div><dt>地区</dt><dd>台湾地区</dd></div>
+                    <div><dt>类型</dt><dd>电影</dd></div>
+                    <div><dt>年份</dt><dd>2025</dd></div>
+                    <div><dt>题材</dt><dd>爱情、剧情</dd></div>
+                </dl>
+            </article>
+        </div>
+        <aside class="detail-aside">
+            <div class="aside-card">
+                <h2>相关推荐</h2>
+                <div class="compact-list">
+<a class="compact-card" href="./movie-0056.html">
+    <img src="./56.jpg" alt="渐渐淡薄的记忆" loading="lazy">
+    <span>
+        <strong>渐渐淡薄的记忆</strong>
+        <em>2021 · 剧情，爱情</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0189.html">
+    <img src="./39.jpg" alt="正常人" loading="lazy">
+    <span>
+        <strong>正常人</strong>
+        <em>2020 · 爱情 / 剧情</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0321.html">
+    <img src="./21.jpg" alt="小王子路易" loading="lazy">
+    <span>
+        <strong>小王子路易</strong>
+        <em>2024 · 剧情 / 历史 / 家庭</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0410.html">
+    <img src="./110.jpg" alt="新封神榜：杨戬" loading="lazy">
+    <span>
+        <strong>新封神榜：杨戬</strong>
+        <em>2024 · 奇幻 / 动作</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0103.html">
+    <img src="./103.jpg" alt="美国队长2:冬日战士" loading="lazy">
+    <span>
+        <strong>美国队长2:冬日战士</strong>
+        <em>2014 · 动作 / 科幻 / 惊悚</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0278.html">
+    <img src="./128.jpg" alt="飞天小女警2016第一季" loading="lazy">
+    <span>
+        <strong>飞天小女警2016第一季</strong>
+        <em>2016 · 动画，动作</em>
+    </span>
+</a>
+                </div>
+            </div>
+        </aside>
+    </section>
+    <section class="content-section">
+<div class="section-head">
+    <div>
+        <span class="section-kicker">精选片单</span>
+        <h2>更多推荐影片</h2>
+        <p>根据题材、分类与片库热度推荐</p>
+    </div>
+    <a class="section-more" href="./ranking.html">查看榜单<span>›</span></a>
+</div>
+
+        <div class="movie-grid small-grid">
+<article class="movie-card" data-card data-title="渐渐淡薄的记忆" data-year="2021" data-type="电影" data-genre="剧情，爱情" data-tags="阿尔茨海默 纯爱 催泪 婚姻 遗忘">
+    <a class="poster-link" href="./movie-0056.html" aria-label="观看 渐渐淡薄的记忆">
+        <img src="./56.jpg" alt="渐渐淡薄的记忆" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2021</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0056.html">渐渐淡薄的记忆</a></h3>
+        <p>妻子患上早发性阿尔茨海默症，丈夫决定在她彻底忘记自己之前，带她重走一遍求婚之路。</p>
+        <div class="tag-row"><span>阿尔茨海默</span><span>纯爱</span><span>催泪</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="正常人" data-year="2020" data-type="剧集" data-genre="爱情 / 剧情" data-tags="萨莉·鲁尼 原生家庭 爱情与权力 爱尔兰 细腻">
+    <a class="poster-link" href="./movie-0189.html" aria-label="观看 正常人">
+        <img src="./39.jpg" alt="正常人" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2020</span>
+            <span>剧集</span>
+        </div>
+        <h3><a href="./movie-0189.html">正常人</a></h3>
+        <p>爱尔兰小镇的优等生玛丽安与同学康奈尔秘密恋爱，两人在高中到大学的拉锯中，不断追问：什么是“正常”？</p>
+        <div class="tag-row"><span>萨莉·鲁尼</span><span>原生家庭</span><span>爱情与权力</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="小王子路易" data-year="2024" data-type="电视剧" data-genre="剧情 / 历史 / 家庭" data-tags="皇室 儿童成长 改编 温情">
+    <a class="poster-link" href="./movie-0321.html" aria-label="观看 小王子路易">
+        <img src="./21.jpg" alt="小王子路易" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2024</span>
+            <span>电视剧</span>
+        </div>
+        <h3><a href="./movie-0321.html">小王子路易</a></h3>
+        <p>虚构的英国小王子路易发现自己只是王室的吉祥物，他密谋逃离白金汉宫，去寻找普通人的生活。</p>
+        <div class="tag-row"><span>皇室</span><span>儿童成长</span><span>改编</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="新封神榜：杨戬" data-year="2024" data-type="电影" data-genre="奇幻 / 动作" data-tags="神话 特效 重工">
+    <a class="poster-link" href="./movie-0410.html" aria-label="观看 新封神榜：杨戬">
+        <img src="./110.jpg" alt="新封神榜：杨戬" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2024</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0410.html">新封神榜：杨戬</a></h3>
+        <p>封神大战后，杨戬被天庭流放到凡间做盲眼算命先生，直到一只长着翅膀的老虎找到他，告诉他妹妹没死。</p>
+        <div class="tag-row"><span>神话</span><span>特效</span><span>重工</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="美国队长2:冬日战士" data-year="2014" data-type="电影" data-genre="动作 / 科幻 / 惊悚" data-tags="漫威 神盾局 九头蛇 巴基 政治惊悚">
+    <a class="poster-link" href="./movie-0103.html" aria-label="观看 美国队长2:冬日战士">
+        <img src="./103.jpg" alt="美国队长2:冬日战士" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2014</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0103.html">美国队长2:冬日战士</a></h3>
+        <p>美队在现代醒来后，发现挚友巴基成了被洗脑的杀手“冬日战士”，他必须在体制崩塌前救回兄弟。</p>
+        <div class="tag-row"><span>漫威</span><span>神盾局</span><span>九头蛇</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="飞天小女警2016第一季" data-year="2016" data-type="剧集" data-genre="动画，动作" data-tags="超级英雄 小女孩 重启 反派 亲情">
+    <a class="poster-link" href="./movie-0278.html" aria-label="观看 飞天小女警2016第一季">
+        <img src="./128.jpg" alt="飞天小女警2016第一季" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2016</span>
+            <span>剧集</span>
+        </div>
+        <h3><a href="./movie-0278.html">飞天小女警2016第一季</a></h3>
+        <p>2016年，花花、泡泡、毛毛重出江湖，但她们要面对的不仅是怪物，还有手机成瘾。</p>
+        <div class="tag-row"><span>超级英雄</span><span>小女孩</span><span>重启</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="暗夜第六感2041" data-year="2041" data-type="剧集" data-genre="科幻 / 心理" data-tags="超能力 赛博朋克 兄弟羁绊">
+    <a class="poster-link" href="./movie-0022.html" aria-label="观看 暗夜第六感2041">
+        <img src="./22.jpg" alt="暗夜第六感2041" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2041</span>
+            <span>剧集</span>
+        </div>
+        <h3><a href="./movie-0022.html">暗夜第六感2041</a></h3>
+        <p>2041年，一对拥有毁灭性超能力的兄弟在末世东京觉醒，政府要将他们改造为武器。</p>
+        <div class="tag-row"><span>超能力</span><span>赛博朋克</span><span>兄弟羁绊</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="少林门" data-year="2029" data-type="电影" data-genre="动作 / 武侠" data-tags="硬桥硬马 少林叛徒 师徒恩仇 冷兵器对战">
+    <a class="poster-link" href="./movie-1431.html" aria-label="观看 少林门">
+        <img src="./81.jpg" alt="少林门" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2029</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-1431.html">少林门</a></h3>
+        <p>少林寺最隐秘的守门僧叛出师门，七年后带洋人火枪队重返，要炸开那扇从未被打开的门。</p>
+        <div class="tag-row"><span>硬桥硬马</span><span>少林叛徒</span><span>师徒恩仇</span></div>
+    </div>
+</article>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-grid"></div>
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <span class="brand-icon">▶</span>
+            <span>精选国产剧</span>
+        </div>
+        <p>精选剧集、热门片库与高清内容推荐，持续整理值得观看的影视条目。</p>
+        <div class="footer-links">
+                <a href="./category-hot-series.html">热播剧集</a>
+                <a href="./category-domestic-choice.html">国产精选</a>
+                <a href="./category-suspense-thriller.html">悬疑惊悚</a>
+                <a href="./category-urban-romance.html">爱情都市</a>
+                <a href="./category-family-ethics.html">家庭伦理</a>
+                <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+                <a href="./category-action-adventure.html">动作冒险</a>
+                <a href="./category-comedy-light.html">喜剧轻松</a>
+                <a href="./category-animation-youth.html">动漫青春</a>
+                <a href="./category-yearly-library.html">年度片库</a>
+        </div>
+        <div class="footer-bottom">© 2026 精选国产剧 · 高清剧集在线播放</div>
+    </div>
+</footer>
+<script src="./assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

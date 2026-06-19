@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>香奈儿的一生 在线观看-精选国产剧</title>
+    <meta name="description" content="香奈儿的一生：从孤儿院修女到时尚帝国女王，香奈儿用一根针和一个情人，刺破了整个时代。">
+    <meta name="keywords" content="香奈儿的一生,爱情都市,电视剧,法国,传记 / 爱情,时装,女权,传奇,战乱,在线播放,高清剧集">
+    <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="header-grid"></div>
+    <div class="header-inner">
+        <a class="brand" href="./index.html" aria-label="精选国产剧">
+            <span class="brand-icon">▶</span>
+            <span class="brand-text">精选国产剧</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a href="./index.html" class="nav-link">首页</a>
+            <a href="./categories.html" class="nav-link">分类</a>
+            <a href="./ranking.html" class="nav-link">热播榜</a>
+                    <a href="./category-hot-series.html" class="nav-link">热播剧集</a>
+                    <a href="./category-domestic-choice.html" class="nav-link">国产精选</a>
+                    <a href="./category-suspense-thriller.html" class="nav-link">悬疑惊悚</a>
+                    <a href="./category-urban-romance.html" class="nav-link">爱情都市</a>
+                    <a href="./category-family-ethics.html" class="nav-link">家庭伦理</a>
+                    <a href="./category-sci-fi-fantasy.html" class="nav-link">科幻奇幻</a>
+        </nav>
+        <form class="header-search" action="./search.html" method="get" data-global-search-form>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-button" type="button" data-menu-toggle aria-label="打开导航">☰</button>
+    </div>
+    <nav class="mobile-menu" data-mobile-menu aria-label="移动端导航">
+        <a href="./index.html" class="mobile-link">首页</a>
+        <a href="./categories.html" class="mobile-link">分类</a>
+        <a href="./ranking.html" class="mobile-link">热播榜</a>
+            <a href="./category-hot-series.html" class="mobile-link">热播剧集</a>
+            <a href="./category-domestic-choice.html" class="mobile-link">国产精选</a>
+            <a href="./category-suspense-thriller.html" class="mobile-link">悬疑惊悚</a>
+            <a href="./category-urban-romance.html" class="mobile-link">爱情都市</a>
+            <a href="./category-family-ethics.html" class="mobile-link">家庭伦理</a>
+            <a href="./category-sci-fi-fantasy.html" class="mobile-link">科幻奇幻</a>
+            <a href="./category-action-adventure.html" class="mobile-link">动作冒险</a>
+            <a href="./category-comedy-light.html" class="mobile-link">喜剧轻松</a>
+            <a href="./category-animation-youth.html" class="mobile-link">动漫青春</a>
+            <a href="./category-yearly-library.html" class="mobile-link">年度片库</a>
+        <form class="mobile-search" action="./search.html" method="get" data-global-search-form>
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+    </nav>
+</header>
+<main>
+    <section class="detail-hero" style="background-image: linear-gradient(90deg, rgba(2, 6, 23, 0.98), rgba(15, 23, 42, 0.78), rgba(2, 6, 23, 0.42)), url('./137.jpg');">
+        <div class="breadcrumb">
+            <a href="./index.html">首页</a>
+            <span>›</span>
+            <a href="./category-urban-romance.html">爱情都市</a>
+            <span>›</span>
+            <strong>香奈儿的一生</strong>
+        </div>
+        <div class="detail-hero-inner">
+            <img class="detail-cover" src="./137.jpg" alt="香奈儿的一生">
+            <div class="detail-copy">
+                <span class="hero-pill">2020 · 法国</span>
+                <h1>香奈儿的一生</h1>
+                <p>从孤儿院修女到时尚帝国女王，香奈儿用一根针和一个情人，刺破了整个时代。</p>
+                <div class="detail-meta">
+                    <span>电视剧</span>
+                    <span>传记 / 爱情</span>
+                    <span>评分 8.5</span>
+                    <span>热度 87</span>
+                </div>
+                <div class="tag-row detail-tags"><span>时装</span><span>女权</span><span>传奇</span><span>战乱</span></div>
+            </div>
+        </div>
+    </section>
+    <section class="detail-layout">
+        <div class="detail-main">
+<section class="player-section">
+    <div class="player-stage">
+        <video id="mainPlayer" controls playsinline preload="metadata" poster="./137.jpg"></video>
+        <button id="playOverlay" class="player-overlay" type="button" aria-label="播放 香奈儿的一生">
+            <span class="overlay-play">▶</span>
+            <strong>香奈儿的一生</strong>
+        </button>
+    </div>
+</section>
+<script src="./assets/hls.js"></script>
+<script>
+(function () {
+    const source = "https://customer-7t103rn8rocxo5v6.cloudflarestream.com/fbc04ae173a0e633458658e80ee78c2a/manifest/video.m3u8";
+    const video = document.getElementById("mainPlayer");
+    const overlay = document.getElementById("playOverlay");
+    let ready = false;
+
+    function attachSource() {
+        if (ready || !video || !source) {
+            return;
+        }
+        ready = true;
+        if (video.canPlayType("application/vnd.apple.mpegurl")) {
+            video.src = source;
+        } else if (window.Hls && window.Hls.isSupported()) {
+            const hls = new window.Hls({
+                enableWorker: true,
+                lowLatencyMode: true
+            });
+            hls.loadSource(source);
+            hls.attachMedia(video);
+        } else {
+            video.src = source;
+        }
+    }
+
+    function startPlayback() {
+        attachSource();
+        if (overlay) {
+            overlay.classList.add("is-hidden");
+        }
+        const playPromise = video.play();
+        if (playPromise && typeof playPromise.catch === "function") {
+            playPromise.catch(function () {});
+        }
+    }
+
+    if (overlay) {
+        overlay.addEventListener("click", startPlayback);
+    }
+    if (video) {
+        video.addEventListener("click", function () {
+            if (video.paused) {
+                startPlayback();
+            }
+        });
+    }
+}());
+</script>
+            <article class="text-panel">
+                <h2>剧情简介</h2>
+                <p>六集迷你剧，每集聚焦香奈儿生命中的一个男人。第一集：孤儿院，修女教会她针线。第二集：酒馆歌女，遇见富商巴勒松，进入上流社会。第三集：与卡佩尔的热恋，他资助她开了第一家帽子店。第四集：俄国大公迪米崔，带给她拜占庭美学。第五集：威斯敏斯特公爵，教会她穿男人衣服。第六集：二战，她关店，与纳粹军官的争议恋情。晚年复出，她用小黑裙和5号香水重新征服世界。最终，她孤独死在丽兹酒店，身边没有男人，只有一把剪刀。</p>
+            </article>
+            <article class="text-panel">
+                <h2>影评推荐</h2>
+                <p>服化道美到窒息，每一帧都是时装大片。没有一味歌颂，深刻展示了她利用男人也被男人利用的一生。最后她躺在工作台上离世，剪刀掉在地上，那就是她的皇冠。</p>
+            </article>
+            <article class="text-panel info-panel">
+                <h2>影片信息</h2>
+                <dl>
+                    <div><dt>片名</dt><dd>香奈儿的一生</dd></div>
+                    <div><dt>地区</dt><dd>法国</dd></div>
+                    <div><dt>类型</dt><dd>电视剧</dd></div>
+                    <div><dt>年份</dt><dd>2020</dd></div>
+                    <div><dt>题材</dt><dd>传记 / 爱情</dd></div>
+                </dl>
+            </article>
+        </div>
+        <aside class="detail-aside">
+            <div class="aside-card">
+                <h2>相关推荐</h2>
+                <div class="compact-list">
+<a class="compact-card" href="./movie-0516.html">
+    <img src="./66.jpg" alt="兄弟车行" loading="lazy">
+    <span>
+        <strong>兄弟车行</strong>
+        <em>2024 · 家庭 / 年代 / 喜剧</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0627.html">
+    <img src="./27.jpg" alt="黑白游龙" loading="lazy">
+    <span>
+        <strong>黑白游龙</strong>
+        <em>2024 · 喜剧 / 运动</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0738.html">
+    <img src="./138.jpg" alt="道场" loading="lazy">
+    <span>
+        <strong>道场</strong>
+        <em>2022 · 剧情 / 动作 / 哲学</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0849.html">
+    <img src="./99.jpg" alt="橡木屋" loading="lazy">
+    <span>
+        <strong>橡木屋</strong>
+        <em>2023 · 悬疑/惊悚/心理</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0961.html">
+    <img src="./61.jpg" alt="烂布传说" loading="lazy">
+    <span>
+        <strong>烂布传说</strong>
+        <em>2024 · 剧情 / 运动</em>
+    </span>
+</a>
+<a class="compact-card" href="./movie-0172.html">
+    <img src="./22.jpg" alt="东风海棠" loading="lazy">
+    <span>
+        <strong>东风海棠</strong>
+        <em>2027 · 爱情，悬疑</em>
+    </span>
+</a>
+                </div>
+            </div>
+        </aside>
+    </section>
+    <section class="content-section">
+<div class="section-head">
+    <div>
+        <span class="section-kicker">精选片单</span>
+        <h2>更多推荐影片</h2>
+        <p>根据题材、分类与片库热度推荐</p>
+    </div>
+    <a class="section-more" href="./ranking.html">查看榜单<span>›</span></a>
+</div>
+
+        <div class="movie-grid small-grid">
+<article class="movie-card" data-card data-title="兄弟车行" data-year="2024" data-type="剧集" data-genre="家庭 / 年代 / 喜剧" data-tags="下岗潮 修车铺 兄弟反目 市井人情">
+    <a class="poster-link" href="./movie-0516.html" aria-label="观看 兄弟车行">
+        <img src="./66.jpg" alt="兄弟车行" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2024</span>
+            <span>剧集</span>
+        </div>
+        <h3><a href="./movie-0516.html">兄弟车行</a></h3>
+        <p>东北老工业区的一间“兄弟车行”，在国企改制的大潮中，维系着两个姓氏、三个家庭、四段孽缘，以及一辆永远修不好的老解放牌卡车。</p>
+        <div class="tag-row"><span>下岗潮</span><span>修车铺</span><span>兄弟反目</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="黑白游龙" data-year="2024" data-type="电影" data-genre="喜剧 / 运动" data-tags="街头篮球 扮猪吃虎 种族 兄弟情">
+    <a class="poster-link" href="./movie-0627.html" aria-label="观看 黑白游龙">
+        <img src="./27.jpg" alt="黑白游龙" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2024</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0627.html">黑白游龙</a></h3>
+        <p>两个华尔街精英周末伪装成菜鸟，去街头球场虐菜赢钱，直到碰上了真正的“上帝”。</p>
+        <div class="tag-row"><span>街头篮球</span><span>扮猪吃虎</span><span>种族</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="道场" data-year="2022" data-type="电影" data-genre="剧情 / 动作 / 哲学" data-tags="剑道 师徒 传承 中年危机 极简主义">
+    <a class="poster-link" href="./movie-0738.html" aria-label="观看 道场">
+        <img src="./138.jpg" alt="道场" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2022</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0738.html">道场</a></h3>
+        <p>东京一家濒临倒闭的老剑道场，来了一位只想学“杀人剑”的退役拳手。</p>
+        <div class="tag-row"><span>剑道</span><span>师徒</span><span>传承</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="橡木屋" data-year="2023" data-type="电影" data-genre="悬疑/惊悚/心理" data-tags="密室 记忆 反转">
+    <a class="poster-link" href="./movie-0849.html" aria-label="观看 橡木屋">
+        <img src="./99.jpg" alt="橡木屋" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2023</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0849.html">橡木屋</a></h3>
+        <p>男人醒来发现自己在一间只有橡木家具的房间里，每开一扇门都是同一间橡木屋，但年份不同。</p>
+        <div class="tag-row"><span>密室</span><span>记忆</span><span>反转</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="烂布传说" data-year="2024" data-type="电影" data-genre="剧情 / 运动" data-tags="跆拳道 破道服 师徒传承 逆袭">
+    <a class="poster-link" href="./movie-0961.html" aria-label="观看 烂布传说">
+        <img src="./61.jpg" alt="烂布传说" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2024</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0961.html">烂布传说</a></h3>
+        <p>一条掉色的旧道服里，藏着一位扫地工从清洁工到国家代表的全盛时代。</p>
+        <div class="tag-row"><span>跆拳道</span><span>破道服</span><span>师徒传承</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="东风海棠" data-year="2027" data-type="电影" data-genre="爱情，悬疑" data-tags="民国 旗袍 家族恩怨 替身">
+    <a class="poster-link" href="./movie-0172.html" aria-label="观看 东风海棠">
+        <img src="./22.jpg" alt="东风海棠" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2027</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-0172.html">东风海棠</a></h3>
+        <p>为查清姐姐死因，她伪装成歌女接近军阀，却发现姐姐留下的海棠花胸针里藏着惊天秘密。</p>
+        <div class="tag-row"><span>民国</span><span>旗袍</span><span>家族恩怨</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="梦回蓝海" data-year="2029" data-type="剧集" data-genre="科幻, 爱情" data-tags="梦境 深海 基因编辑 双时间线">
+    <a class="poster-link" href="./movie-0074.html" aria-label="观看 梦回蓝海">
+        <img src="./74.jpg" alt="梦回蓝海" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2029</span>
+            <span>剧集</span>
+        </div>
+        <h3><a href="./movie-0074.html">梦回蓝海</a></h3>
+        <p>2050年的海洋学家发现，每次入睡她都会回到1980年的海边，遇见一个叫“深海”的神秘男孩，而男孩是她去世二十年的父亲。</p>
+        <div class="tag-row"><span>梦境</span><span>深海</span><span>基因编辑</span></div>
+    </div>
+</article>
+<article class="movie-card" data-card data-title="傀儡生活" data-year="2027" data-type="电影" data-genre="科幻、伦理" data-tags="提线木偶 意识上传 阶层 替身 自由意志">
+    <a class="poster-link" href="./movie-1504.html" aria-label="观看 傀儡生活">
+        <img src="./4.jpg" alt="傀儡生活" loading="lazy">
+        <span class="poster-shade"></span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <div class="movie-meta-line">
+            <span>2027</span>
+            <span>电影</span>
+        </div>
+        <h3><a href="./movie-1504.html">傀儡生活</a></h3>
+        <p>穷人出售自己的身体控制权给富人体验“真实生活”，醒来时发现自己成了提线木偶。</p>
+        <div class="tag-row"><span>提线木偶</span><span>意识上传</span><span>阶层</span></div>
+    </div>
+</article>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-grid"></div>
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <span class="brand-icon">▶</span>
+            <span>精选国产剧</span>
+        </div>
+        <p>精选剧集、热门片库与高清内容推荐，持续整理值得观看的影视条目。</p>
+        <div class="footer-links">
+                <a href="./category-hot-series.html">热播剧集</a>
+                <a href="./category-domestic-choice.html">国产精选</a>
+                <a href="./category-suspense-thriller.html">悬疑惊悚</a>
+                <a href="./category-urban-romance.html">爱情都市</a>
+                <a href="./category-family-ethics.html">家庭伦理</a>
+                <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+                <a href="./category-action-adventure.html">动作冒险</a>
+                <a href="./category-comedy-light.html">喜剧轻松</a>
+                <a href="./category-animation-youth.html">动漫青春</a>
+                <a href="./category-yearly-library.html">年度片库</a>
+        </div>
+        <div class="footer-bottom">© 2026 精选国产剧 · 高清剧集在线播放</div>
+    </div>
+</footer>
+<script src="./assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
